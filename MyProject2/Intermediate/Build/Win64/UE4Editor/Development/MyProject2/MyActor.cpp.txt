@@ -1,3 +1,0 @@
-C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\Definitions.MyProject2.h
-C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\MyProject2\Source\MyProject2\MyActor.h
-C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\MyProject2\Intermediate\Build\Win64\UE4Editor\Inc\MyProject2\MyActor.generated.h

@@ -2,27 +2,27 @@
 
 "front-1.png":
 {
-	"frame": {"x":0,"y":0,"w":479,"h":300},
+	"frame": {"x":1,"y":1,"w":491,"h":287},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":479,"h":300},
-	"sourceSize": {"w":479,"h":300}
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":22,"w":491,"h":287},
+	"sourceSize": {"w":499,"h":320}
 },
 "front-2.png":
 {
-	"frame": {"x":0,"y":300,"w":479,"h":300},
+	"frame": {"x":1,"y":290,"w":455,"h":307},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":479,"h":300},
-	"sourceSize": {"w":479,"h":300}
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":7,"w":455,"h":307},
+	"sourceSize": {"w":499,"h":320}
 },
 "front-3.png":
 {
-	"frame": {"x":0,"y":600,"w":479,"h":300},
+	"frame": {"x":1,"y":599,"w":441,"h":311},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":479,"h":300},
-	"sourceSize": {"w":479,"h":300}
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":4,"w":441,"h":311},
+	"sourceSize": {"w":499,"h":320}
 }},
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
@@ -30,8 +30,8 @@
 	"target": "paper2d", 
 	"image": "FrogSprites.png",
 	"format": "RGBA8888",
-	"size": {"w":479,"h":900},
+	"size": {"w":493,"h":911},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:ec039bbf9503ffefd04ebd5f5bfa49c0:1e1d98decaf40e9db061bec65699acb1:f7ef2c10a2ac4a7efad03fe1f8347bb6$"
+	"smartupdate": "$TexturePacker:SmartUpdate:10267082847ca598f882dce2a6495bd1:6927f2448c8ac52e5b26365ea650fac9:f7ef2c10a2ac4a7efad03fe1f8347bb6$"
 }
 }

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "JourneyOfFrogFighter",
+			"Path": "C:\\Users\\New User\\Desktop\\Uni\\3rd Year\\COMP313\\COMP313Assignment1\\JourneyOfFrogFighter\\Source\\JourneyOfFrogFighter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "JourneyOfFrogFighterEditor",
+			"Path": "C:\\Users\\New User\\Desktop\\Uni\\3rd Year\\COMP313\\COMP313Assignment1\\JourneyOfFrogFighter\\Source\\JourneyOfFrogFighterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

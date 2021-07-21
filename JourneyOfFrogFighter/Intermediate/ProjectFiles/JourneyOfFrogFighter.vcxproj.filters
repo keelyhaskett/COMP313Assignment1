@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\JourneyOfFrogFighter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{110D848F-6F04-4E2E-9988-267ED5134AD1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\JourneyOfFrogFighter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\JourneyOfFrogFighterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BC6392A2-DCB9-40A5-B9F9-A959F6A5FE37}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\JourneyOfFrogFighter">
+      <UniqueIdentifier>{AD9C1B39-E944-482D-9BE6-BC0CC56B267E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\JourneyOfFrogFighter\JourneyOfFrogFighter.Build.cs">
+      <Filter>Source\JourneyOfFrogFighter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\JourneyOfFrogFighter\JourneyOfFrogFighter.cpp">
+      <Filter>Source\JourneyOfFrogFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JourneyOfFrogFighter\JourneyOfFrogFighter.h">
+      <Filter>Source\JourneyOfFrogFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JourneyOfFrogFighter\JourneyOfFrogFighterCharacter.cpp">
+      <Filter>Source\JourneyOfFrogFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JourneyOfFrogFighter\JourneyOfFrogFighterCharacter.h">
+      <Filter>Source\JourneyOfFrogFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JourneyOfFrogFighter\JourneyOfFrogFighterGameMode.cpp">
+      <Filter>Source\JourneyOfFrogFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JourneyOfFrogFighter\JourneyOfFrogFighterGameMode.h">
+      <Filter>Source\JourneyOfFrogFighter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
