@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeJourneyOfFrogFighter_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x0D9F7AF2,
-				0x55475AA1,
+				0x837997E0,
+				0x8F6D7482,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

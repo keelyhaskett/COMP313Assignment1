@@ -3,34 +3,45 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "PaperFlipbookActor.h"
-#include"PaperSpriteComponent.h"
-#include"PaperFlipbookComponent.h"
+#include "GameFramework/Actor.h"
+#include "Components/SphereComponent.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 #include "Projectile.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class JOURNEYOFFROGFIGHTER_API AProjectile : public APaperFlipbookActor
+class JOURNEYOFFROGFIGHTER_API AProjectile : public AActor
 {
 	GENERATED_BODY()
 
 
-	private:
-		UFUNCTION() 
-		void OnHorizontal(float val);
+	public:
+		AProjectile();
 
-		UFUNCTION() 
-		void OnVertical(float val); 
+	protected: 
+		virtual void BeginPlay() override;
 
-	private: 
-		UPROPERTY(VisibleDefaultsOnly)
-			UFloatingPawnMovement *m_movementComponent;
+	public:
+		virtual void Tick(float DeltaTime) override;
+
+		UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
+			USphereComponent* CollisionComponent;
 		
-		// The  ship sprite component.
-		UPROPERTY(VisibleDefaultsOnly) 
-		UPaperSpriteComponent *m_bubbleVisual; 
+		UPROPERTY(VisibleAnywhere, Category = Movement)
+			UProjectileMovementComponent* ProjectileMovementComponent;
 		
+		UFUNCTION(BlueprintCallable)
+		void FireInDirection(const FVector& ShootDirection);
+
+		UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
+			UStaticMeshComponent* ProjectileMeshComponent;
+
+		UPROPERTY(VisibleDefaultsOnly, Category = Movement)
+			UMaterialInstanceDynamic* ProjectileMaterialInstance;
+
+		UFUNCTION()
+			void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
 	
 };
