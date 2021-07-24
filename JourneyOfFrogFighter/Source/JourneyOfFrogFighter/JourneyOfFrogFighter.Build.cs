@@ -6,8 +6,11 @@ public class JourneyOfFrogFighter : ModuleRules
 {
 	public JourneyOfFrogFighter(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+		// ^^^ was ReadOnlyTargetRules Target) : base (Target)
+		//PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", /*"HeadMountedDisplay"*/ "Paper2D" });
+
+		PublicDependencyModuleNames.AddRange(new string[] { });
 	}
 }

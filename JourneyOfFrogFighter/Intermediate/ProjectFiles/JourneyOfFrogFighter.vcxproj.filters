@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\JourneyOfFrogFighter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{110D848F-6F04-4E2E-9988-267ED5134AD1}</UniqueIdentifier>
+      <UniqueIdentifier>{81D33B51-1924-4BFC-9A09-DC3267C3CE0E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\JourneyOfFrogFighter.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BC6392A2-DCB9-40A5-B9F9-A959F6A5FE37}</UniqueIdentifier>
+      <UniqueIdentifier>{6D1C2CD0-F33E-461A-B703-18609E15FBDC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\JourneyOfFrogFighter">
-      <UniqueIdentifier>{AD9C1B39-E944-482D-9BE6-BC0CC56B267E}</UniqueIdentifier>
+      <UniqueIdentifier>{5709F2B4-C96B-45A8-8D00-D19F17C513DD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\JourneyOfFrogFighter\JourneyOfFrogFighter.Build.cs">
       <Filter>Source\JourneyOfFrogFighter</Filter>
@@ -51,6 +51,12 @@
       <Filter>Source\JourneyOfFrogFighter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\JourneyOfFrogFighter\JourneyOfFrogFighterGameMode.h">
+      <Filter>Source\JourneyOfFrogFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JourneyOfFrogFighter\Projectile.cpp">
+      <Filter>Source\JourneyOfFrogFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JourneyOfFrogFighter\Projectile.h">
       <Filter>Source\JourneyOfFrogFighter</Filter>
     </ClInclude>
   </ItemGroup>

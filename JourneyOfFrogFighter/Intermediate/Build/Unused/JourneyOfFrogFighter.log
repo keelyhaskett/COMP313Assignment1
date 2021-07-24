@@ -1,11 +1,36 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1).
+  Creating makefile for JourneyOfFrogFighterEditor (no existing makefile)
+  Parsing headers for JourneyOfFrogFighterEditor
+    Running UnrealHeaderTool "C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\JourneyOfFrogFighter.uproject" "C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\JourneyOfFrogFighterEditor\Development\JourneyOfFrogFighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\New User\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for JourneyOfFrogFighterEditor in 47.161867 seconds
   Building JourneyOfFrogFighterEditor...
-  Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 4 processes...
-    [1/3] UE4Editor-JourneyOfFrogFighter-0002.lib
-       Creating library C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\UE4Editor-JourneyOfFrogFighter-0002.lib and object C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\UE4Editor-JourneyOfFrogFighter-0002.exp
-    [2/3] UE4Editor-JourneyOfFrogFighter-0002.dll
-       Creating library C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\UE4Editor-JourneyOfFrogFighter-0002.suppressed.lib and object C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\UE4Editor-JourneyOfFrogFighter-0002.suppressed.exp
-    [3/3] JourneyOfFrogFighterEditor.target
-  Total time in Parallel executor: 4.77 seconds
-  Total execution time: 6.90 seconds
+  Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 12 actions with 4 processes...
+    [1/12] SharedPCH.Engine.ShadowErrors.cpp
+    [2/12] Projectile.cpp
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter\Projectile.h(29): error C2143: syntax error: missing ';' before '*'
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter\Projectile.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter\Projectile.h(29): error C2238: unexpected token(s) preceding ';'
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter\Projectile.h(17): error C2039: 'm_movementComponent': is not a member of 'AProjectile'
+    C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter\Projectile.h(15): note: see declaration of 'AProjectile'
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter\Projectile.h(17): error C2618: illegal member designator in offsetof
+    C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter\Projectile.h(17): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+    [3/12] JourneyOfFrogFighter.cpp
+    [4/12] JourneyOfFrogFighter.init.gen.cpp
+    [5/12] JourneyOfFrogFighterGameMode.cpp
+    [6/12] JourneyOfFrogFighterCharacter.cpp
+    [7/12] Projectile.gen.cpp
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter/Projectile.h(29): error C2143: syntax error: missing ';' before '*'
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter/Projectile.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter/Projectile.h(29): error C2238: unexpected token(s) preceding ';'
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter/Projectile.h(17): error C2039: 'm_movementComponent': is not a member of 'AProjectile'
+    C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter/Projectile.h(15): note: see declaration of 'AProjectile'
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter/Projectile.h(17): error C2618: illegal member designator in offsetof
+    C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter/Projectile.h(17): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Inc\JourneyOfFrogFighter\Projectile.gen.cpp(157): error C2039: 'm_movementComponent': is not a member of 'AProjectile'
+    C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Source\JourneyOfFrogFighter/Projectile.h(15): note: see declaration of 'AProjectile'
+C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Inc\JourneyOfFrogFighter\Projectile.gen.cpp(157): error C2618: illegal member designator in offsetof
+    C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Inc\JourneyOfFrogFighter\Projectile.gen.cpp(157): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+    [8/12] JourneyOfFrogFighterGameMode.gen.cpp
+    [9/12] JourneyOfFrogFighterCharacter.gen.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" JourneyOfFrogFighterEditor Win64 Development -Project="C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\JourneyOfFrogFighter.uproject" -WaitMutex -FromMsBuild" exited with code 6.
