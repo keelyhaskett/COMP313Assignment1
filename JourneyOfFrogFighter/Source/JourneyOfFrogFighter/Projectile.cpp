@@ -33,7 +33,7 @@ AProjectile::AProjectile()
 	}
 
 	if (!ProjectileMeshComponent) {
-		ProjectileMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ProjectileFlipbookComponent"));
+		ProjectileMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ProjectileMeshComponent"));
 		ProjectileMeshComponent->AttachTo(CollisionComponent);
 		static ConstructorHelpers::FObjectFinder<UStaticMesh>Mesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere'"));
 		if (Mesh.Succeeded())
@@ -48,7 +48,6 @@ AProjectile::AProjectile()
 		ProjectileMaterialInstance = UMaterialInstanceDynamic::Create(Material.Object, ProjectileMeshComponent);
 	}
 	ProjectileMeshComponent->SetMaterial(0, ProjectileMaterialInstance);
-	//ProjectileMeshComponent->SetRelativeScale3D(FVector(0.09f, 0.09f, 0.09f));
 	ProjectileMeshComponent->SetRelativeScale3D(FVector(0.4f, 0.4f, 0.4f));
 	ProjectileMeshComponent->SetupAttachment(RootComponent);
 

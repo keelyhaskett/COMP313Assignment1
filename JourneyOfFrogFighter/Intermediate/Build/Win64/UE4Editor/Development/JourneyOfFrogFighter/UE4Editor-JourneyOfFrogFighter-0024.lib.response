@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-JourneyOfFrogFighter-0024.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\JourneyOfFrogFighterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\JourneyOfFrogFighter.cpp.obj"
+"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\JourneyOfFrogFighterCharacter.cpp.obj"
+"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\JourneyOfFrogFighterGameMode.cpp.obj"
+"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\Projectile.cpp.obj"
+"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\JourneyOfFrogFighter.init.gen.cpp.obj"
+"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\JourneyOfFrogFighterCharacter.gen.cpp.obj"
+"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\JourneyOfFrogFighterGameMode.gen.cpp.obj"
+"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\Projectile.gen.cpp.obj"
+"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\Default.rc2.res"
+/OUT:"C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Intermediate\Build\Win64\UE4Editor\Development\JourneyOfFrogFighter\UE4Editor-JourneyOfFrogFighter-0024.lib"
+/INCLUDE:IMPLEMENT_MODULE_JourneyOfFrogFighter

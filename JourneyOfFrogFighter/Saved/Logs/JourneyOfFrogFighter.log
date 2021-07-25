@@ -5322,3 +5322,1506 @@ Error: CDO Constructor (JourneyOfFrogFighterGameMode): Failed to find /Game/Thir
 [2021.07.25-01.03.19:637][193]AssetCheck: New page: Asset Save: multiple assets
 [2021.07.25-01.03.19:637][193]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
 [2021.07.25-01.03.19:638][193]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.07.25-01.04.55:254][985]BlueprintLog: New page: Compile FrogCharacter
+[2021.07.25-01.04.55:420][985]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2021.07.25-01.05.04:220][126]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-01.05.04:232][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.25-01.05.04:232][126]PIE: New page: PIE session: MainLevel (26/07/2021, 1:05:04 am)
+[2021.07.25-01.05.04:236][126]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-01.05.04:245][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008378s)
+[2021.07.25-01.05.04:247][126]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-01.05.04:248][126]LogPlayLevel: PIE: World Init took: (0.002731s)
+[2021.07.25-01.05.04:248][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.011430s)
+[2021.07.25-01.05.04:321][126]LogUObjectHash: Compacting FUObjectHashTables data took   8.94ms
+[2021.07.25-01.05.04:322][126]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2021.07.25-01.05.04:323][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-01.05.04:323][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-01.05.04:323][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-01.05.04:323][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-01.05.04:323][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-01.05.04:323][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-01.05.04:323][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-01.05.04:323][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-01.05.04:324][126]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-01.05.04:324][126]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-01.05.04:330][126]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-01.05.04:330][126]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-01.05.04:466][126]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-01.05.04:467][126]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-01.05.04:467][126]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-01.05.04:467][126]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-01.05.04:468][126]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-01.05.04:468][126]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-01.05.04:468][126]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-01.05.04:505][126]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-01.05.04:505][126]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-01.05.04:505][126]LogInit: FAudioDevice initialized.
+[2021.07.25-01.05.04:505][126]LogAudio: Display: Audio Device (ID: 47) registered with world 'MainLevel'.
+[2021.07.25-01.05.04:522][126]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-01.05.04:524][126]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-13.05.04
+[2021.07.25-01.05.04:525][126]LogWorld: Bringing up level for play took: 0.001996
+[2021.07.25-01.05.04:525][126]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2021.07.25-01.05.04:530][126]PIE: Server logged in
+[2021.07.25-01.05.04:531][126]PIE: Play in editor total start time 0.301 seconds.
+[2021.07.25-01.05.11:531][469]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.05.12:496][519]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.05.13:800][588]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.05.15:141][658]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.05.24:796][162]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=-0.00 Y=-98.76 Z=0.00 Location: X=-70.56 Y=-994.07 Z=101.36 Normal: X=-0.04 Y=-1.00 Z=-0.03 PenetrationDepth:33.578 Actor:Projectile_7 Component:ProjectileFlipbookComponent BoneName:None (0 other events since notify)
+[2021.07.25-01.05.26:514][253]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.05.28:952][382]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.05.37:222][811]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.05.37:758][839]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.05.38:081][855]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.05.41:874][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-01.05.41:874][ 51]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-01.05.41:875][ 51]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-01.05.41:875][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-01.05.41:894][ 51]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-01.05.41:906][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-01.05.41:972][ 51]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.25-01.05.41:972][ 51]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-01.05.41:974][ 51]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-01.05.42:019][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-01.05.42:028][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2021.07.25-01.05.42:087][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2021.07.25-01.06.08:972][330]BlueprintLog: New page: Compile FrogCharacter
+[2021.07.25-01.06.09:106][330]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2021.07.25-01.06.10:257][381]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-01.06.10:273][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.25-01.06.10:274][381]PIE: New page: PIE session: MainLevel (26/07/2021, 1:06:10 am)
+[2021.07.25-01.06.10:282][381]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-01.06.10:288][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005706s)
+[2021.07.25-01.06.10:292][381]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-01.06.10:294][381]LogPlayLevel: PIE: World Init took: (0.005499s)
+[2021.07.25-01.06.10:294][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.011842s)
+[2021.07.25-01.06.10:358][381]LogUObjectHash: Compacting FUObjectHashTables data took   7.59ms
+[2021.07.25-01.06.10:358][381]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2021.07.25-01.06.10:358][381]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-01.06.10:358][381]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-01.06.10:358][381]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-01.06.10:358][381]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-01.06.10:359][381]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-01.06.10:359][381]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-01.06.10:359][381]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-01.06.10:359][381]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-01.06.10:359][381]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-01.06.10:359][381]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-01.06.10:364][381]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-01.06.10:364][381]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-01.06.10:477][381]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-01.06.10:478][381]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-01.06.10:478][381]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-01.06.10:478][381]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-01.06.10:479][381]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-01.06.10:479][381]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-01.06.10:479][381]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-01.06.10:508][381]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-01.06.10:508][381]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-01.06.10:508][381]LogInit: FAudioDevice initialized.
+[2021.07.25-01.06.10:508][381]LogAudio: Display: Audio Device (ID: 48) registered with world 'MainLevel'.
+[2021.07.25-01.06.10:525][381]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-01.06.10:527][381]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-13.06.10
+[2021.07.25-01.06.10:527][381]LogWorld: Bringing up level for play took: 0.001637
+[2021.07.25-01.06.10:528][381]LogOnline: OSS: Creating online subsystem instance for: :Context_56
+[2021.07.25-01.06.10:532][381]PIE: Server logged in
+[2021.07.25-01.06.10:533][381]PIE: Play in editor total start time 0.264 seconds.
+[2021.07.25-01.06.16:568][695]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.17:499][745]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.19:798][871]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.20:311][900]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.22:738][ 31]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.25:891][206]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.26:803][257]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.29:279][389]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.32:135][548]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.32:548][571]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.32:986][596]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.33:138][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.37:514][842]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.06.40:902][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-01.06.40:902][ 22]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-01.06.40:903][ 22]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-01.06.40:903][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-01.06.40:916][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-01.06.40:923][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-01.06.40:983][ 22]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.25-01.06.40:983][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-01.06.40:984][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-01.06.41:019][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-01.06.41:026][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2021.07.25-01.06.41:089][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2021.07.25-01.08.08:334][183]LogHotReload: New module detected: UE4Editor-JourneyOfFrogFighter-0024.dll
+[2021.07.25-01.08.14:105][198]LogHotReload: Starting Hot-Reload from IDE
+[2021.07.25-01.08.14:518][198]Error: CDO Constructor (JourneyOfFrogFighterGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2021.07.25-01.08.14:523][198]LogHotReload: Re-instancing Projectile after hot-reload.
+[2021.07.25-01.08.14:635][198]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'JourneyOfFrogFighter' in 0.0121 seconds. Added 3 classes and 2 folders.
+[2021.07.25-01.08.14:637][198]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (JourneyOfFrogFighterGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2021.07.25-01.08.14:648][198]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.07.25-01.08.16:259][198]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.1066 seconds. Added 3604 classes and 861 folders.
+[2021.07.25-01.08.16:281][198]Display: HotReload took  2.2s.
+[2021.07.25-01.08.28:519][595]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-01.08.28:555][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.25-01.08.28:555][595]PIE: New page: PIE session: MainLevel (26/07/2021, 1:08:28 am)
+[2021.07.25-01.08.28:556][595]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-01.08.28:568][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011936s)
+[2021.07.25-01.08.28:571][595]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-01.08.28:572][595]LogPlayLevel: PIE: World Init took: (0.003282s)
+[2021.07.25-01.08.28:572][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.015574s)
+[2021.07.25-01.08.29:600][595]LogUObjectHash: Compacting FUObjectHashTables data took   8.04ms
+[2021.07.25-01.08.29:605][595]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2021.07.25-01.08.29:605][595]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-01.08.29:606][595]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-01.08.29:606][595]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-01.08.29:606][595]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-01.08.29:606][595]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-01.08.29:606][595]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-01.08.29:606][595]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-01.08.29:606][595]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-01.08.29:607][595]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-01.08.29:607][595]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-01.08.29:616][595]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-01.08.29:616][595]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-01.08.29:732][595]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-01.08.29:732][595]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-01.08.29:732][595]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-01.08.29:732][595]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-01.08.29:737][595]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-01.08.29:737][595]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-01.08.29:737][595]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-01.08.29:764][595]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-01.08.29:764][595]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-01.08.29:764][595]LogInit: FAudioDevice initialized.
+[2021.07.25-01.08.29:764][595]LogAudio: Display: Audio Device (ID: 49) registered with world 'MainLevel'.
+[2021.07.25-01.08.29:782][595]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-01.08.29:783][595]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-13.08.29
+[2021.07.25-01.08.29:784][595]LogWorld: Bringing up level for play took: 0.001512
+[2021.07.25-01.08.29:785][595]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2021.07.25-01.08.29:789][595]PIE: Server logged in
+[2021.07.25-01.08.29:791][595]PIE: Play in editor total start time 1.255 seconds.
+[2021.07.25-01.08.35:937][920]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.08.36:559][954]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.08.38:810][ 60]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.08.54:646][834]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.08.56:536][938]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.08.56:587][941]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.08.59:433][ 94]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.09.05:624][434]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.09.06:168][465]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.09.07:003][512]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.09.09:998][677]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.09.10:501][704]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.09.11:466][754]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-01.09.13:462][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-01.09.13:463][860]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-01.09.13:463][860]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-01.09.13:464][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-01.09.13:478][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-01.09.13:490][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-01.09.13:551][860]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.25-01.09.13:553][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-01.09.13:555][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-01.09.13:591][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-01.09.13:603][860]LogUObjectHash: Compacting FUObjectHashTables data took   8.42ms
+[2021.07.25-01.09.13:666][861]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2021.07.25-01.14.10:918][807]LogHotReload: New module detected: UE4Editor-JourneyOfFrogFighter-0025.dll
+[2021.07.25-01.14.13:768][816]LogHotReload: Starting Hot-Reload from IDE
+[2021.07.25-01.14.14:040][816]Error: CDO Constructor (JourneyOfFrogFighterGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2021.07.25-01.14.14:049][816]LogHotReload: Re-instancing Projectile after hot-reload.
+[2021.07.25-01.14.14:718][816]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'JourneyOfFrogFighter' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2021.07.25-01.14.14:718][816]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (JourneyOfFrogFighterGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2021.07.25-01.14.15:132][816]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.07.25-01.14.15:478][816]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0255 seconds. Added 3604 classes and 861 folders.
+[2021.07.25-01.14.15:489][816]Display: HotReload took  1.7s.
+[2021.07.25-01.15.17:760][999]LogUObjectHash: Compacting FUObjectHashTables data took  10.64ms
+[2021.07.25-01.15.17:850][999]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/MainLevel_Auto45CB45A024F081D94E0A763B6469471BC.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/MainLevel_Auto4.umap'
+[2021.07.25-01.15.17:868][999]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.296
+[2021.07.25-01.15.17:869][999]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.296
+[2021.07.25-01.15.17:872][999]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Frog/FrogCharacter] ([1] browsable assets)...
+[2021.07.25-01.15.17:872][999]OBJ SavePackage: Finished generating thumbnails for package [/Game/Frog/FrogCharacter]
+[2021.07.25-01.15.17:963][999]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/FrogCharacter_Auto4A6D5229A430DCDED39A756B3E0BA7FE1.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/Frog/FrogCharacter_Auto4.uasset'
+[2021.07.25-01.15.17:977][999]LogFileHelpers: Auto-saving content packages took 0.107
+[2021.07.25-01.20.00:943][867]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2021.07.25-01.20.00:943][867]LogBlueprint: Warning: [AssetLog]  (no disk path found): [Compiler] Pasted node  CustomEvent   conflicted with  On Component Hit (CapsuleComponent)  and was replaced as a Custom Event!
+[2021.07.25-01.20.17:298][733]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.07.25-01.21.04:405][ 97]LogSlate: Took 0.014362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.07.25-01.25.18:479][661]LogUObjectHash: Compacting FUObjectHashTables data took  13.23ms
+[2021.07.25-01.25.18:487][661]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.217
+[2021.07.25-01.25.18:492][661]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/TopDownCharacter] ([1] browsable assets)...
+[2021.07.25-01.25.18:492][661]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/TopDownCharacter]
+[2021.07.25-01.25.18:605][661]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/TopDownCharacter_Auto57543E7FD4D86441DC978BA9F4CA96F0B.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/TopDown/TopDownCharacter_Auto5.uasset'
+[2021.07.25-01.25.18:609][661]LogFileHelpers: Auto-saving content packages took 0.119
+[2021.07.25-01.52.44:310][511]LogEditorViewport: Clicking Background
+[2021.07.25-01.52.55:553][579]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/FrogCharacter9854166D42FB209A552149821F24A1EE.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/Frog/FrogCharacter.uasset'
+[2021.07.25-01.52.56:636][579]AssetCheck: New page: Asset Save: FrogCharacter
+[2021.07.25-01.52.56:638][579]LogContentValidation: Display: Validating Blueprint /Game/Frog/FrogCharacter.FrogCharacter
+[2021.07.25-01.52.57:527][598]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/TopDownCharacter7FA70143442E6DCC572DB48173524664.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/TopDown/TopDownCharacter.uasset'
+[2021.07.25-01.52.57:639][598]AssetCheck: New page: Asset Save: TopDownCharacter
+[2021.07.25-01.52.57:639][598]LogContentValidation: Display: Validating Blueprint /Game/TopDown/TopDownCharacter.TopDownCharacter
+[2021.07.25-01.52.58:588][626]BlueprintLog: New page: Compile TopDownCharacter
+[2021.07.25-01.52.58:785][626]LogBlueprint: Warning: [AssetLog] C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Content\TopDown\TopDownCharacter.uasset: [Compiler] Can't parse default value 'None' for  Lives . Property: Lives.
+[2021.07.25-01.52.59:734][626]LogUObjectHash: Compacting FUObjectHashTables data took  60.97ms
+[2021.07.25-01.53.48:504][577]LogUObjectHash: Compacting FUObjectHashTables data took  25.16ms
+[2021.07.25-01.53.48:519][577]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.498
+[2021.07.25-01.53.48:525][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/TopDownCharacter] ([1] browsable assets)...
+[2021.07.25-01.53.48:526][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/TopDownCharacter]
+[2021.07.25-01.53.49:605][577]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/TopDownCharacter_Auto6508023DA43C9058D3B90E3B9AC520311.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/TopDown/TopDownCharacter_Auto6.uasset'
+[2021.07.25-01.53.49:646][577]LogFileHelpers: Auto-saving content packages took 1.124
+[2021.07.25-02.02.43:512][857]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.07.25-02.03.04:521][857]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.07.25-02.03.04:568][857]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.07.25-02.03.04:634][857]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.07.25-02.03.08:028][992]LogContentBrowser: Attempting asset rename: NewBlueprint -> HUD
+[2021.07.25-02.03.08:081][992]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.07.25-02.03.26:708][461]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.07.25-02.03.37:201][829]LogContentBrowser: Attempting asset rename: HUD -> GameHUD
+[2021.07.25-02.03.37:329][829]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/GameHUD.GameHUD:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/HUD.PackageMetaData'
+[2021.07.25-02.03.37:329][829]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/GameHUD.SKEL_GameHUD_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/HUD.PackageMetaData'
+[2021.07.25-02.03.37:330][829]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/GameHUD.SKEL_GameHUD_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/HUD.PackageMetaData'
+[2021.07.25-02.03.37:330][829]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/GameHUD.GameHUD_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/HUD.PackageMetaData'
+[2021.07.25-02.03.37:330][829]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/GameHUD.GameHUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/HUD.PackageMetaData'
+[2021.07.25-02.03.37:330][829]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/GameHUD.GameHUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/HUD.PackageMetaData'
+[2021.07.25-02.03.37:330][829]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/GameHUD.GameHUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/HUD.PackageMetaData'
+[2021.07.25-02.03.37:434][829]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameHUD4AA384464C38D42643ED89AF46CEEB76.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/ThirdPersonBP/Blueprints/GameHUD.uasset'
+[2021.07.25-02.03.37:735][829]LogUObjectHash: Compacting FUObjectHashTables data took   7.95ms
+[2021.07.25-02.03.37:870][829]LogUObjectHash: Compacting FUObjectHashTables data took  10.79ms
+[2021.07.25-02.03.37:972][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.07.25-02.03.38:290][829]AssetCheck: New page: Asset Save: GameHUD
+[2021.07.25-02.03.38:290][829]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/GameHUD.GameHUD
+[2021.07.25-02.04.22:037][100]LogUObjectHash: Compacting FUObjectHashTables data took  19.92ms
+[2021.07.25-02.04.22:174][100]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/MainLevel_Auto791A09D6046CAB016CCE47EAF5C8222FB.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/MainLevel_Auto7.umap'
+[2021.07.25-02.04.24:683][100]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 3.859
+[2021.07.25-02.04.24:684][100]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 3.859
+[2021.07.25-02.04.24:699][100]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/TopDownCharacter] ([1] browsable assets)...
+[2021.07.25-02.04.24:699][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/TopDownCharacter]
+[2021.07.25-02.04.25:232][100]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/TopDownCharacter_Auto73D1A7CAA4084FF2DEBECA3A231D3D04D.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/TopDown/TopDownCharacter_Auto7.uasset'
+[2021.07.25-02.04.25:425][100]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2021.07.25-02.04.25:425][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2021.07.25-02.04.25:466][100]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/ThirdPersonGameMode_Auto73C1B436B49578900F86DE386C0F6B755.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto7.uasset'
+[2021.07.25-02.04.26:196][100]LogFileHelpers: Auto-saving content packages took 1.513
+[2021.07.25-02.05.13:779][588]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.07.25-02.05.13:816][588]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.07.25-02.05.29:839][298]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> GameWidgetHUD
+[2021.07.25-02.05.29:890][298]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.07.25-02.11.54:587][ 13]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/GameWidgetHUD.GameWidgetHUD
+[2021.07.25-02.15.51:464][826]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\bubble-2.png)
+[2021.07.25-02.15.51:625][826]LogTexture: Display: Building textures: bubble-2 (AutoDXT, 440X440)
+[2021.07.25-02.17.35:157][379]LogUObjectHash: Compacting FUObjectHashTables data took  30.95ms
+[2021.07.25-02.17.35:161][379]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 1.561
+[2021.07.25-02.17.35:171][379]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Projectile/bubble-2] ([1] browsable assets)...
+[2021.07.25-02.17.35:200][379]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Projectile/bubble-2.bubble-2]
+[2021.07.25-02.17.35:201][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/Projectile/bubble-2]
+[2021.07.25-02.17.35:219][379]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/bubble-2_Auto8EC19DB3245C323889EFB41909981E07A.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/Projectile/bubble-2_Auto8.uasset'
+[2021.07.25-02.17.35:238][379]LogFileHelpers: Auto-saving content packages took 0.072
+[2021.07.25-03.31.32:257][252]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-03.31.32:375][252]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.25-03.31.32:418][252]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
+[2021.07.25-03.31.34:949][252]LogPlayLevel: [PlayLevel] Compiling ThirdPersonGameMode before play...
+[2021.07.25-03.31.34:967][252]LogPlayLevel: [PlayLevel] Compiling MainLevel before play...
+[2021.07.25-03.31.35:037][252]LogPlayLevel: [PlayLevel] Compiling GameWidgetHUD before play...
+[2021.07.25-03.31.35:050][252]LogBlueprint: Error: [AssetLog] /Game/ThirdPersonBP/Blueprints/GameWidgetHUD.GameWidgetHUD (no disk path found): [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' TextBlock_0 ': Member:GetText_0 Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2021.07.25-03.31.35:973][252]LogUObjectHash: Compacting FUObjectHashTables data took  95.79ms
+[2021.07.25-03.31.36:003][252]LogPlayLevel: PlayLevel: Blueprint regeneration took 3631 ms (4 blueprints)
+[2021.07.25-03.31.36:006][252]BlueprintLog: Warning: Blueprint failed to compile:  GameWidgetHUD
+[2021.07.25-03.31.36:010][252]LogCustomDialog: Dialog displayed:
+[2021.07.25-03.31.38:946][252]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2021.07.25-03.31.41:750][302]LogSlate: Window 'Message Log' being destroyed
+[2021.07.25-03.31.41:778][302]LogSlate: Window 'Message Log' being destroyed
+[2021.07.25-03.31.45:901][435]BlueprintLog: New page: Compile GameWidgetHUD
+[2021.07.25-03.31.45:906][435]LogBlueprint: Error: [AssetLog] /Game/ThirdPersonBP/Blueprints/GameWidgetHUD.GameWidgetHUD (no disk path found): [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' TextBlock_0 ': Member:GetText_0 Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2021.07.25-03.31.46:024][435]LogUObjectHash: Compacting FUObjectHashTables data took   7.15ms
+[2021.07.25-03.31.52:127][698]BlueprintLog: New page: Compile GameWidgetHUD
+[2021.07.25-03.31.52:132][698]LogBlueprint: Error: [AssetLog] /Game/ThirdPersonBP/Blueprints/GameWidgetHUD.GameWidgetHUD (no disk path found): [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' TextBlock_0 ': Member:GetText_0 Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2021.07.25-03.31.52:245][698]LogUObjectHash: Compacting FUObjectHashTables data took   9.94ms
+[2021.07.25-03.32.00:006][926]LogBlueprint: Warning: Unknown type of hyperlinked object (TextBlock_0), cannot focus it
+[2021.07.25-03.32.33:260][587]LogEditorTransaction: Undo Add Node
+[2021.07.25-03.32.35:026][661]LogEditorTransaction: Undo Delete current selection
+[2021.07.25-03.32.52:981][502]LogEditorTransaction: Undo Create Pin Link
+[2021.07.25-03.33.06:547][139]BlueprintLog: New page: Compile GameWidgetHUD
+[2021.07.25-03.33.06:662][139]LogUObjectHash: Compacting FUObjectHashTables data took  10.72ms
+[2021.07.25-03.33.12:607][217]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-03.33.12:620][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.25-03.33.12:624][217]PIE: New page: PIE session: MainLevel (26/07/2021, 3:33:12 am)
+[2021.07.25-03.33.12:637][217]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-03.33.12:696][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057154s)
+[2021.07.25-03.33.12:713][217]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-03.33.12:724][217]LogPlayLevel: PIE: World Init took: (0.028183s)
+[2021.07.25-03.33.12:725][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.088742s)
+[2021.07.25-03.33.12:836][217]LogUObjectHash: Compacting FUObjectHashTables data took  16.75ms
+[2021.07.25-03.33.12:838][217]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2021.07.25-03.33.12:841][217]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-03.33.12:841][217]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-03.33.12:841][217]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-03.33.12:841][217]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-03.33.12:841][217]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-03.33.12:842][217]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-03.33.12:842][217]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-03.33.12:842][217]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-03.33.12:846][217]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-03.33.12:846][217]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-03.33.12:862][217]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-03.33.12:862][217]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-03.33.13:202][217]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-03.33.13:243][217]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-03.33.13:243][217]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-03.33.13:244][217]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-03.33.13:247][217]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-03.33.13:248][217]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-03.33.13:248][217]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-03.33.13:260][217]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-03.33.13:261][217]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-03.33.13:261][217]LogInit: FAudioDevice initialized.
+[2021.07.25-03.33.13:261][217]LogAudio: Display: Audio Device (ID: 50) registered with world 'MainLevel'.
+[2021.07.25-03.33.13:336][217]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-03.33.13:351][217]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-15.33.13
+[2021.07.25-03.33.13:353][217]LogWorld: Bringing up level for play took: 0.015388
+[2021.07.25-03.33.13:365][217]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2021.07.25-03.33.13:409][217]PIE: Server logged in
+[2021.07.25-03.33.13:414][217]PIE: Play in editor total start time 0.796 seconds.
+[2021.07.25-03.33.15:760][254]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.33.20:630][465]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.33.21:707][516]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.33.23:275][590]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.33.24:915][650]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.33.31:073][891]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.33.32:209][943]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=-0.00 Y=-400.00 Z=0.00 Location: X=-112.20 Y=-647.51 Z=101.43 Normal: X=-0.03 Y=-1.00 Z=-0.03 PenetrationDepth:32.008 Actor:Projectile_6 Component:ProjectileMeshComponent BoneName:None (0 other events since notify)
+[2021.07.25-03.33.44:845][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-03.33.44:845][419]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-03.33.44:848][419]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-03.33.44:854][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-03.33.45:069][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-03.33.45:085][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-03.33.45:238][419]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.25-03.33.45:240][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-03.33.45:242][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-03.33.45:305][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-03.33.45:334][419]LogUObjectHash: Compacting FUObjectHashTables data took   9.09ms
+[2021.07.25-03.33.45:396][420]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2021.07.25-03.34.32:323][869]LogUObjectHash: Compacting FUObjectHashTables data took  15.85ms
+[2021.07.25-03.34.32:401][869]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/MainLevel_Auto9EFB3F1F2478F78D8E4DA47876315683F.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/MainLevel_Auto9.umap'
+[2021.07.25-03.34.32:447][869]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.303
+[2021.07.25-03.34.32:447][869]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.303
+[2021.07.25-03.37.00:201][400]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameWidgetHUD2385393E4062636F156E58B9FBCD83A1.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/ThirdPersonBP/Blueprints/GameWidgetHUD.uasset'
+[2021.07.25-03.37.00:289][400]AssetCheck: New page: Asset Save: GameWidgetHUD
+[2021.07.25-03.37.00:290][400]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonBP/Blueprints/GameWidgetHUD.GameWidgetHUD
+[2021.07.25-03.37.00:651][415]BlueprintLog: New page: Compile GameWidgetHUD
+[2021.07.25-03.37.00:864][415]LogUObjectHash: Compacting FUObjectHashTables data took  15.65ms
+[2021.07.25-03.37.02:072][448]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-03.37.02:092][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.25-03.37.02:092][448]PIE: New page: PIE session: MainLevel (26/07/2021, 3:37:02 am)
+[2021.07.25-03.37.02:100][448]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-03.37.02:111][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010837s)
+[2021.07.25-03.37.02:114][448]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-03.37.02:115][448]LogPlayLevel: PIE: World Init took: (0.003565s)
+[2021.07.25-03.37.02:115][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.014820s)
+[2021.07.25-03.37.02:213][448]LogUObjectHash: Compacting FUObjectHashTables data took  10.05ms
+[2021.07.25-03.37.02:214][448]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2021.07.25-03.37.02:214][448]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-03.37.02:214][448]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-03.37.02:214][448]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-03.37.02:214][448]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-03.37.02:215][448]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-03.37.02:215][448]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-03.37.02:215][448]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-03.37.02:215][448]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-03.37.02:215][448]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-03.37.02:215][448]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-03.37.02:220][448]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-03.37.02:220][448]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-03.37.02:596][448]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-03.37.02:613][448]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-03.37.02:613][448]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-03.37.02:613][448]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-03.37.02:613][448]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-03.37.02:613][448]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-03.37.02:613][448]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-03.37.02:618][448]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-03.37.02:618][448]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-03.37.02:618][448]LogInit: FAudioDevice initialized.
+[2021.07.25-03.37.02:618][448]LogAudio: Display: Audio Device (ID: 51) registered with world 'MainLevel'.
+[2021.07.25-03.37.02:694][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-03.37.02:697][448]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-03.37.02:701][448]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-15.37.02
+[2021.07.25-03.37.02:701][448]LogWorld: Bringing up level for play took: 0.001964
+[2021.07.25-03.37.02:702][448]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2021.07.25-03.37.02:739][448]PIE: Server logged in
+[2021.07.25-03.37.02:743][448]PIE: Play in editor total start time 0.653 seconds.
+[2021.07.25-03.37.06:998][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-03.37.06:998][559]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-03.37.07:001][559]LogSlate: Window 'JourneyOfFrogFighter Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.07.25-03.37.07:006][559]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-03.37.07:006][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-03.37.07:099][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-03.37.07:128][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-03.37.07:324][559]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.25-03.37.07:325][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-03.37.07:327][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-03.37.07:397][559]LogUObjectHash: Compacting FUObjectHashTables data took   9.97ms
+[2021.07.25-03.37.07:435][560]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2021.07.25-03.37.30:402][  4]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/GameHUD.GameHUD
+[2021.07.25-03.58.49:471][529]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.07.25-03.59.28:265][836]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-03.59.28:283][836]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.25-03.59.28:291][836]LogPlayLevel: [PlayLevel] Compiling GameHUD before play...
+[2021.07.25-03.59.28:489][836]LogUObjectHash: Compacting FUObjectHashTables data took  13.42ms
+[2021.07.25-03.59.28:493][836]LogPlayLevel: PlayLevel: Blueprint regeneration took 211 ms (1 blueprints)
+[2021.07.25-03.59.28:494][836]PIE: New page: PIE session: MainLevel (26/07/2021, 3:59:28 am)
+[2021.07.25-03.59.28:504][836]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-03.59.28:516][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011807s)
+[2021.07.25-03.59.28:519][836]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-03.59.28:519][836]LogPlayLevel: PIE: World Init took: (0.003174s)
+[2021.07.25-03.59.28:520][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.015361s)
+[2021.07.25-03.59.28:625][836]LogUObjectHash: Compacting FUObjectHashTables data took   8.54ms
+[2021.07.25-03.59.28:651][836]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2021.07.25-03.59.28:651][836]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-03.59.28:651][836]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-03.59.28:652][836]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-03.59.28:652][836]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-03.59.28:652][836]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-03.59.28:652][836]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-03.59.28:652][836]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-03.59.28:652][836]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-03.59.28:653][836]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-03.59.28:653][836]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-03.59.28:659][836]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-03.59.28:659][836]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-03.59.28:912][836]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-03.59.28:920][836]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-03.59.28:921][836]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-03.59.28:921][836]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-03.59.28:924][836]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-03.59.28:924][836]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-03.59.28:924][836]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-03.59.28:960][836]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-03.59.28:960][836]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-03.59.28:960][836]LogInit: FAudioDevice initialized.
+[2021.07.25-03.59.28:961][836]LogAudio: Display: Audio Device (ID: 52) registered with world 'MainLevel'.
+[2021.07.25-03.59.28:994][836]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-03.59.28:997][836]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-15.59.28
+[2021.07.25-03.59.28:998][836]LogWorld: Bringing up level for play took: 0.002468
+[2021.07.25-03.59.28:999][836]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2021.07.25-03.59.29:008][836]PIE: Server logged in
+[2021.07.25-03.59.29:009][836]PIE: Play in editor total start time 0.729 seconds.
+[2021.07.25-03.59.29:522][852]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.59.33:798][ 53]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.59.39:216][306]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.59.40:997][370]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.59.44:486][494]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-03.59.48:013][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-03.59.48:013][624]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-03.59.48:014][624]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-03.59.48:014][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-03.59.48:054][624]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-03.59.48:071][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-03.59.48:208][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-03.59.48:210][624]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-03.59.48:212][624]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-03.59.48:285][624]LogUObjectHash: Compacting FUObjectHashTables data took  10.40ms
+[2021.07.25-03.59.48:341][625]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2021.07.25-04.00.51:566][862]LogUObjectHash: Compacting FUObjectHashTables data took   8.26ms
+[2021.07.25-04.00.51:574][862]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.194
+[2021.07.25-04.00.51:583][862]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/TopDownCharacter] ([1] browsable assets)...
+[2021.07.25-04.00.51:583][862]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/TopDownCharacter]
+[2021.07.25-04.00.51:846][862]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/TopDownCharacter_Auto0580A8C7443F9349D13FE869391952467.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/TopDown/TopDownCharacter_Auto0.uasset'
+[2021.07.25-04.00.51:883][862]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/GameHUD] ([1] browsable assets)...
+[2021.07.25-04.00.51:883][862]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/GameHUD]
+[2021.07.25-04.00.51:972][862]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameHUD_Auto050A237CF476097F976508BA91F165943.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/GameHUD_Auto0.uasset'
+[2021.07.25-04.00.51:983][862]LogFileHelpers: Auto-saving content packages took 0.403
+[2021.07.25-04.02.15:624][313]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-04.02.15:648][313]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.25-04.02.15:653][313]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
+[2021.07.25-04.02.16:011][313]LogUObjectHash: Compacting FUObjectHashTables data took  14.25ms
+[2021.07.25-04.02.16:012][313]LogPlayLevel: PlayLevel: Blueprint regeneration took 365 ms (1 blueprints)
+[2021.07.25-04.02.16:012][313]PIE: New page: PIE session: MainLevel (26/07/2021, 4:02:16 am)
+[2021.07.25-04.02.16:023][313]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-04.02.16:031][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007552s)
+[2021.07.25-04.02.16:034][313]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-04.02.16:034][313]LogPlayLevel: PIE: World Init took: (0.002857s)
+[2021.07.25-04.02.16:034][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.010671s)
+[2021.07.25-04.02.16:141][313]LogUObjectHash: Compacting FUObjectHashTables data took   7.84ms
+[2021.07.25-04.02.16:142][313]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2021.07.25-04.02.16:143][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-04.02.16:143][313]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-04.02.16:143][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-04.02.16:143][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-04.02.16:143][313]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-04.02.16:143][313]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-04.02.16:143][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-04.02.16:143][313]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-04.02.16:144][313]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-04.02.16:144][313]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-04.02.16:148][313]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-04.02.16:148][313]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-04.02.16:384][313]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-04.02.16:387][313]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-04.02.16:387][313]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-04.02.16:387][313]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-04.02.16:387][313]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-04.02.16:388][313]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-04.02.16:388][313]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-04.02.16:414][313]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-04.02.16:414][313]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-04.02.16:414][313]LogInit: FAudioDevice initialized.
+[2021.07.25-04.02.16:414][313]LogAudio: Display: Audio Device (ID: 53) registered with world 'MainLevel'.
+[2021.07.25-04.02.16:432][313]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-04.02.16:434][313]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-16.02.16
+[2021.07.25-04.02.16:435][313]LogWorld: Bringing up level for play took: 0.001428
+[2021.07.25-04.02.16:435][313]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2021.07.25-04.02.16:441][313]PIE: Server logged in
+[2021.07.25-04.02.16:443][313]PIE: Play in editor total start time 0.798 seconds.
+[2021.07.25-04.02.29:195][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-04.02.29:195][806]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-04.02.29:196][806]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-04.02.29:196][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-04.02.29:211][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-04.02.29:228][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-04.02.29:347][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-04.02.29:348][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-04.02.29:349][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-04.02.29:418][806]LogUObjectHash: Compacting FUObjectHashTables data took   8.56ms
+[2021.07.25-04.02.29:477][807]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2021.07.25-04.07.24:691][ 89]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-04.07.24:708][ 89]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.25-04.07.24:714][ 89]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
+[2021.07.25-04.07.24:739][ 89]LogBlueprint: Error: [AssetLog] C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Content\TopDown\TopDownCharacter.uasset: [Compiler] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2021.07.25-04.07.24:739][ 89]LogBlueprint: Error: [AssetLog] C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\JourneyOfFrogFighter\Content\TopDown\TopDownCharacter.uasset: [Compiler] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2021.07.25-04.07.25:193][ 89]LogUObjectHash: Compacting FUObjectHashTables data took  13.93ms
+[2021.07.25-04.07.25:198][ 89]LogPlayLevel: PlayLevel: Blueprint regeneration took 490 ms (1 blueprints)
+[2021.07.25-04.07.25:199][ 89]BlueprintLog: Warning: Blueprint failed to compile:  TopDownCharacter
+[2021.07.25-04.07.25:202][ 89]LogCustomDialog: Dialog displayed:
+[2021.07.25-04.07.27:541][ 89]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2021.07.25-04.08.15:213][296]LogSlate: Window 'Message Log' being destroyed
+[2021.07.25-04.08.15:229][296]LogSlate: Window 'Message Log' being destroyed
+[2021.07.25-04.08.15:941][323]BlueprintLog: New page: Compile TopDownCharacter
+[2021.07.25-04.08.16:084][323]LogUObjectHash: Compacting FUObjectHashTables data took   7.42ms
+[2021.07.25-04.08.51:603][600]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-04.08.51:620][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.25-04.08.51:621][600]PIE: New page: PIE session: MainLevel (26/07/2021, 4:08:51 am)
+[2021.07.25-04.08.51:628][600]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-04.08.51:650][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022114s)
+[2021.07.25-04.08.51:653][600]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-04.08.51:653][600]LogPlayLevel: PIE: World Init took: (0.003118s)
+[2021.07.25-04.08.51:654][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.025733s)
+[2021.07.25-04.08.51:808][600]LogUObjectHash: Compacting FUObjectHashTables data took  13.79ms
+[2021.07.25-04.08.51:812][600]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2021.07.25-04.08.51:812][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-04.08.51:812][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-04.08.51:812][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-04.08.51:812][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-04.08.51:812][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-04.08.51:812][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-04.08.51:812][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-04.08.51:812][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-04.08.51:814][600]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-04.08.51:815][600]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-04.08.51:825][600]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-04.08.51:825][600]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-04.08.52:096][600]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-04.08.52:101][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-04.08.52:101][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-04.08.52:101][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-04.08.52:103][600]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-04.08.52:103][600]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-04.08.52:103][600]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-04.08.52:155][600]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-04.08.52:156][600]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-04.08.52:156][600]LogInit: FAudioDevice initialized.
+[2021.07.25-04.08.52:156][600]LogAudio: Display: Audio Device (ID: 54) registered with world 'MainLevel'.
+[2021.07.25-04.08.52:193][600]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-04.08.52:195][600]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-16.08.52
+[2021.07.25-04.08.52:196][600]LogWorld: Bringing up level for play took: 0.001981
+[2021.07.25-04.08.52:197][600]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2021.07.25-04.08.52:209][600]PIE: Server logged in
+[2021.07.25-04.08.52:211][600]PIE: Play in editor total start time 0.593 seconds.
+[2021.07.25-04.08.56:696][795]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-04.09.05:279][971]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-04.09.06:960][ 35]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-04.09.07:972][ 78]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-04.09.09:903][110]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-04.09.10:732][131]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-04.09.11:731][173]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=2.32 Y=-63.22 Z=0.00 Location: X=-0.41 Y=1133.84 Z=102.61 Normal: X=-0.00 Y=-1.00 Z=0.00 PenetrationDepth:61.139 Actor:Projectile_5 Component:ProjectileMeshComponent BoneName:None (0 other events since notify)
+[2021.07.25-04.09.23:092][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-04.09.23:092][595]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-04.09.23:092][595]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-04.09.23:092][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-04.09.23:244][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-04.09.23:281][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-04.09.23:481][595]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.25-04.09.23:481][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-04.09.23:483][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-04.09.23:535][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-04.09.23:552][595]LogUObjectHash: Compacting FUObjectHashTables data took  13.28ms
+[2021.07.25-04.09.23:637][596]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2021.07.25-04.12.53:509][445]LogUObjectHash: Compacting FUObjectHashTables data took  11.90ms
+[2021.07.25-04.12.53:517][445]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 2.239
+[2021.07.25-04.12.53:525][445]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/TopDownCharacter] ([1] browsable assets)...
+[2021.07.25-04.12.53:526][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/TopDownCharacter]
+[2021.07.25-04.12.57:451][445]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/TopDownCharacter_Auto1C6DDC36B4C30D58F8F9E00830EFE924B.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/TopDown/TopDownCharacter_Auto1.uasset'
+[2021.07.25-04.12.57:537][445]LogFileHelpers: Auto-saving content packages took 4.018
+[2021.07.25-04.22.59:503][457]LogUObjectHash: Compacting FUObjectHashTables data took  26.06ms
+[2021.07.25-04.22.59:620][457]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.465
+[2021.07.25-04.22.59:632][457]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/GameWidgetHUD] ([2] browsable assets)...
+[2021.07.25-04.22.59:634][457]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/GameWidgetHUD]
+[2021.07.25-04.22.59:936][457]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameWidgetHUD_Auto2653774DD489B3BFC9AF41B9DA1ACAFC9.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/GameWidgetHUD_Auto2.uasset'
+[2021.07.25-04.22.59:951][457]LogFileHelpers: Auto-saving content packages took 0.323
+[2021.07.25-04.23.17:007][558]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/MainLevel.MainLevel:PersistentLevel.MainLevel
+[2021.07.25-04.23.54:258][287]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.07.25-04.23.58:139][450]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.07.25-04.23.58:146][450]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.07.25-04.24.04:504][725]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.07.25-04.24.09:226][821]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.07.25-04.24.09:232][821]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.07.25-04.24.14:826][ 52]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.07.25-04.24.34:482][368]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.07.25-04.24.34:498][368]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.07.25-04.24.41:523][737]BlueprintLog: New page: Compile MainLevel
+[2021.07.25-04.24.41:740][737]LogUObjectHash: Compacting FUObjectHashTables data took  10.49ms
+[2021.07.25-04.33.01:601][429]LogUObjectHash: Compacting FUObjectHashTables data took  16.63ms
+[2021.07.25-04.33.01:760][429]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/MainLevel_Auto37C22DF114198029A99776CB95B57AD84.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/MainLevel_Auto3.umap'
+[2021.07.25-04.33.01:883][429]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 1.061
+[2021.07.25-04.33.01:883][429]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.061
+[2021.07.25-04.43.03:242][828]LogUObjectHash: Compacting FUObjectHashTables data took  14.65ms
+[2021.07.25-04.43.03:375][828]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/MainLevel_Auto4528D5E144914B19654FED1A04483724C.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/MainLevel_Auto4.umap'
+[2021.07.25-04.43.03:417][828]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.531
+[2021.07.25-04.43.03:417][828]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.531
+[2021.07.25-04.43.03:418][828]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/GameWidgetHUD] ([2] browsable assets)...
+[2021.07.25-04.43.03:418][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/GameWidgetHUD]
+[2021.07.25-04.43.03:549][828]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameWidgetHUD_Auto43CA6AF7D41C6C1304DDD4592C33AF54F.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/GameWidgetHUD_Auto4.uasset'
+[2021.07.25-04.43.03:585][828]LogFileHelpers: Auto-saving content packages took 0.168
+[2021.07.25-04.53.21:038][212]LogAudioMixer: Resetting audio stream to device id 
+[2021.07.25-04.53.21:276][212]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-04.53.21:276][212]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-04.53.27:864][232]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.07.25-06.12.21:855][233]LogAudioMixer: Resetting audio stream to device id 
+[2021.07.25-06.12.21:929][233]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-06.12.21:929][233]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-06.12.24:987][234]LogAudioMixer: Resetting audio stream to device id 
+[2021.07.25-06.12.25:038][234]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-06.12.25:039][234]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-06.14.03:826][411]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.07.25-06.14.09:587][427]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.07.25-06.14.10:088][428]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.07.25-06.14.12:188][429]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.07.25-06.26.28:167][841]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.07.25-06.37.26:710][ 70]LogUObjectHash: Compacting FUObjectHashTables data took 165.33ms
+[2021.07.25-06.37.26:806][ 70]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 4.712
+[2021.07.25-06.37.26:841][ 70]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/TopDownCharacter] ([1] browsable assets)...
+[2021.07.25-06.37.26:844][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/TopDownCharacter]
+[2021.07.25-06.37.29:744][ 70]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/TopDownCharacter_Auto5EF516D17408A35696CF644B19C1F3E47.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/TopDown/TopDownCharacter_Auto5.uasset'
+[2021.07.25-06.37.29:795][ 70]LogFileHelpers: Auto-saving content packages took 2.985
+[2021.07.25-06.40.25:621][705]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\New User\Desktop\Uni\3rd Year\COMP313\COMP313Assignment1\sound.wav)
+[2021.07.25-06.42.01:231][829]LogContentBrowser: Attempting asset rename: sound -> firesound
+[2021.07.25-06.42.01:588][829]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/firesoundA0691CBD457FD5B7241BC9874DB899DD.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/TopDown/firesound.uasset'
+[2021.07.25-06.42.02:201][829]LogUObjectHash: Compacting FUObjectHashTables data took  20.05ms
+[2021.07.25-06.42.02:407][829]LogUObjectHash: Compacting FUObjectHashTables data took   9.73ms
+[2021.07.25-06.42.02:535][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.07.25-06.42.02:926][829]AssetCheck: New page: Asset Save: firesound
+[2021.07.25-06.42.02:929][829]LogContentValidation: Display: Validating SoundWave /Game/TopDown/firesound.firesound
+[2021.07.25-06.42.24:549][394]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-06.42.24:614][394]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.25-06.42.24:696][394]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
+[2021.07.25-06.42.25:360][394]LogPlayLevel: [PlayLevel] Compiling ThirdPersonGameMode before play...
+[2021.07.25-06.42.25:374][394]LogPlayLevel: [PlayLevel] Compiling GameHUD before play...
+[2021.07.25-06.42.25:480][394]LogPlayLevel: [PlayLevel] Compiling MainLevel before play...
+[2021.07.25-06.42.25:558][394]LogPlayLevel: [PlayLevel] Compiling GameWidgetHUD before play...
+[2021.07.25-06.42.25:812][394]LogUObjectHash: Compacting FUObjectHashTables data took  28.34ms
+[2021.07.25-06.42.25:819][394]LogPlayLevel: PlayLevel: Blueprint regeneration took 1207 ms (5 blueprints)
+[2021.07.25-06.42.25:823][394]PIE: New page: PIE session: MainLevel (26/07/2021, 6:42:25 am)
+[2021.07.25-06.42.25:842][394]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-06.42.25:925][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082774s)
+[2021.07.25-06.42.25:984][394]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-06.42.26:000][394]LogPlayLevel: PIE: World Init took: (0.073779s)
+[2021.07.25-06.42.26:001][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.160422s)
+[2021.07.25-06.42.26:113][394]LogUObjectHash: Compacting FUObjectHashTables data took   8.93ms
+[2021.07.25-06.42.26:121][394]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2021.07.25-06.42.26:125][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-06.42.26:125][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-06.42.26:125][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-06.42.26:125][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-06.42.26:125][394]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-06.42.26:125][394]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-06.42.26:125][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-06.42.26:125][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-06.42.26:130][394]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-06.42.26:131][394]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-06.42.26:141][394]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-06.42.26:141][394]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-06.42.26:293][394]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-06.42.26:335][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-06.42.26:335][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-06.42.26:336][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-06.42.26:339][394]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-06.42.26:339][394]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-06.42.26:339][394]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-06.42.26:361][394]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-06.42.26:361][394]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-06.42.26:361][394]LogInit: FAudioDevice initialized.
+[2021.07.25-06.42.26:361][394]LogAudio: Display: Audio Device (ID: 55) registered with world 'MainLevel'.
+[2021.07.25-06.42.26:467][394]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-06.42.26:485][394]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 3) at 2021.07.25-18.42.26
+[2021.07.25-06.42.26:490][394]LogWorld: Bringing up level for play took: 0.020106
+[2021.07.25-06.42.26:505][394]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2021.07.25-06.42.26:591][394]PIE: Server logged in
+[2021.07.25-06.42.26:594][394]PIE: Play in editor total start time 1.995 seconds.
+[2021.07.25-06.42.48:891][458]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave firesound...
+[2021.07.25-06.42.48:894][458]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/TopDown/firesound.firesound will be modified from 40 to 40.
+[2021.07.25-06.42.48:955][458]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 16540 while cooking SoundWave /Game/TopDown/firesound.firesound.
+[2021.07.25-06.42.50:382][514]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-06.42.50:538][521]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-06.42.50:997][541]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-06.42.51:065][544]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-06.42.53:595][622]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-06.43.07:291][ 59]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-06.43.09:916][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-06.43.09:916][157]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-06.43.09:923][157]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-06.43.09:929][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-06.43.10:059][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-06.43.10:079][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-06.43.10:194][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-06.43.10:197][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-06.43.10:199][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-06.43.10:289][157]LogUObjectHash: Compacting FUObjectHashTables data took   9.11ms
+[2021.07.25-06.43.10:352][158]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2021.07.25-06.48.17:832][973]LogUObjectHash: Compacting FUObjectHashTables data took  16.73ms
+[2021.07.25-06.48.17:915][973]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/MainLevel_Auto6B228863A49E6AE69DF71C0BE9F98486D.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/MainLevel_Auto6.umap'
+[2021.07.25-06.48.17:934][973]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.412
+[2021.07.25-06.48.17:935][973]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.412
+[2021.07.25-06.48.17:935][973]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/TopDownCharacter] ([1] browsable assets)...
+[2021.07.25-06.48.17:935][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/TopDownCharacter]
+[2021.07.25-06.48.18:100][973]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/TopDownCharacter_Auto602213C214862B16DF8F1DCA9C6F6BB76.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/TopDown/TopDownCharacter_Auto6.uasset'
+[2021.07.25-06.48.18:113][973]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2021.07.25-06.48.18:113][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2021.07.25-06.48.18:150][973]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/ThirdPersonGameMode_Auto6754FA7C44BFB631692455CB2DD59EEE0.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto6.uasset'
+[2021.07.25-06.48.18:161][973]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/GameHUD] ([1] browsable assets)...
+[2021.07.25-06.48.18:161][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/GameHUD]
+[2021.07.25-06.48.18:201][973]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameHUD_Auto6CD2BECFA42DC901F0BCDC0BAB4C2099A.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/GameHUD_Auto6.uasset'
+[2021.07.25-06.48.18:211][973]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/GameWidgetHUD] ([2] browsable assets)...
+[2021.07.25-06.48.18:212][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/GameWidgetHUD]
+[2021.07.25-06.48.18:256][973]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameWidgetHUD_Auto662F4669D4320735DA9A878819571A4B5.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/GameWidgetHUD_Auto6.uasset'
+[2021.07.25-06.48.18:265][973]LogFileHelpers: Auto-saving content packages took 0.330
+[2021.07.25-06.49.14:899][509]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.07.25-06.49.14:936][509]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.07.25-06.49.21:756][783]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> GameOverWidget
+[2021.07.25-06.49.21:825][783]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.07.25-06.49.34:989][820]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/GameOverWidget.GameOverWidget
+[2021.07.25-06.54.13:330][767]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.25-06.56.38:912][ 11]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.25-07.00.10:205][ 25]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.07.25-07.02.43:824][697]LogUObjectHash: Compacting FUObjectHashTables data took  15.68ms
+[2021.07.25-07.02.43:829][697]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.148
+[2021.07.25-07.02.43:830][697]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/GameHUD] ([1] browsable assets)...
+[2021.07.25-07.02.43:830][697]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/GameHUD]
+[2021.07.25-07.02.43:852][697]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameHUD_Auto7642187D940C22357081DA5991FAAE719.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/GameHUD_Auto7.uasset'
+[2021.07.25-07.02.43:854][697]LogFileHelpers: Auto-saving content packages took 0.024
+[2021.07.25-07.03.59:683][  7]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.07.25-07.06.36:640][295]BlueprintLog: New page: Compile GameHUD
+[2021.07.25-07.06.38:773][295]LogUObjectHash: Compacting FUObjectHashTables data took 391.00ms
+[2021.07.25-07.07.07:161][507]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.07.25-07.08.19:648][717]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-07.08.19:668][717]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.25-07.08.19:686][717]LogPlayLevel: [PlayLevel] Compiling GameOverWidget before play...
+[2021.07.25-07.08.19:990][717]LogUObjectHash: Compacting FUObjectHashTables data took  11.64ms
+[2021.07.25-07.08.19:996][717]LogPlayLevel: PlayLevel: Blueprint regeneration took 330 ms (1 blueprints)
+[2021.07.25-07.08.19:998][717]PIE: New page: PIE session: MainLevel (26/07/2021, 7:08:19 am)
+[2021.07.25-07.08.20:009][717]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.08.20:029][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020687s)
+[2021.07.25-07.08.20:032][717]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-07.08.20:035][717]LogPlayLevel: PIE: World Init took: (0.005653s)
+[2021.07.25-07.08.20:035][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.027236s)
+[2021.07.25-07.08.20:154][717]LogUObjectHash: Compacting FUObjectHashTables data took   8.54ms
+[2021.07.25-07.08.20:165][717]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2021.07.25-07.08.20:165][717]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-07.08.20:166][717]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-07.08.20:166][717]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-07.08.20:166][717]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-07.08.20:166][717]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-07.08.20:166][717]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-07.08.20:166][717]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-07.08.20:166][717]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-07.08.20:168][717]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-07.08.20:168][717]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-07.08.20:179][717]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-07.08.20:179][717]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-07.08.20:403][717]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-07.08.20:431][717]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-07.08.20:432][717]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-07.08.20:432][717]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-07.08.20:435][717]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-07.08.20:436][717]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-07.08.20:436][717]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-07.08.20:462][717]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-07.08.20:462][717]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-07.08.20:462][717]LogInit: FAudioDevice initialized.
+[2021.07.25-07.08.20:462][717]LogAudio: Display: Audio Device (ID: 56) registered with world 'MainLevel'.
+[2021.07.25-07.08.20:498][717]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-07.08.20:502][717]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-19.08.20
+[2021.07.25-07.08.20:503][717]LogWorld: Bringing up level for play took: 0.003551
+[2021.07.25-07.08.20:504][717]LogOnline: OSS: Creating online subsystem instance for: :Context_70
+[2021.07.25-07.08.20:519][717]PIE: Server logged in
+[2021.07.25-07.08.20:521][717]PIE: Play in editor total start time 0.857 seconds.
+[2021.07.25-07.08.23:088][791]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.08.25:695][900]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.08.28:991][ 32]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.08.33:508][224]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.08.39:225][431]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=265.38 Y=195.52 Z=0.00 Location: X=359.11 Y=-1324.66 Z=103.29 Normal: X=-0.34 Y=-0.94 Z=0.00 PenetrationDepth:6.711 Actor:Projectile_6 Component:ProjectileMeshComponent BoneName:None (0 other events since notify)
+[2021.07.25-07.08.41:708][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.08.41:708][536]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.08.41:708][536]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-07.08.41:709][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.08.41:739][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-07.08.41:756][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.08.41:914][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.08.41:915][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.08.41:917][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.08.41:980][536]LogUObjectHash: Compacting FUObjectHashTables data took   8.20ms
+[2021.07.25-07.08.42:038][537]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2021.07.25-07.10.17:173][ 11]LogVSAccessor: Warning: Couldn't get Visual Studio COM object
+[2021.07.25-07.10.17:173][ 11]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2021.07.25-07.10.17:201][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:201][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:202][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:202][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:202][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:202][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:202][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:202][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:202][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:203][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:203][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:203][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:203][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:203][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:203][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:203][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:204][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:204][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:204][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:204][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:204][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:204][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:205][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:205][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:205][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:206][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:206][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:206][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:206][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:207][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:207][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:207][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:207][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:207][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:208][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:208][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:208][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:208][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:208][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:208][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:209][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:209][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:209][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:209][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:209][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:209][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:209][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:210][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:210][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:210][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:210][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:210][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:210][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:210][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:211][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:211][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:211][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:211][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:211][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:211][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:212][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:212][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:212][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:212][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:212][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:213][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:213][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:213][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:213][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:213][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:213][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:214][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:214][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:214][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:214][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:214][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:214][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:214][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:215][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:215][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:216][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:216][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:216][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:216][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:216][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:217][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:217][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:217][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:217][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:218][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:218][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:219][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:219][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:219][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:219][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:220][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:220][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:220][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:220][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:220][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:220][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:220][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:221][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:221][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:221][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:221][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:253][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:256][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:256][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:260][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:261][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:261][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:277][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:278][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:278][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:278][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:278][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:293][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:293][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:293][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:447][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:496][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:515][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:516][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:517][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:523][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:524][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:524][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:524][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:524][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:524][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:587][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:616][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:658][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:674][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:674][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:674][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:684][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:685][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:685][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:686][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:723][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:763][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:775][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:837][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:837][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:837][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:852][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:901][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:908][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:908][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:911][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:911][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.17:912][ 11]LogVSAccessor: Warning: Couldn't access module table
+[2021.07.25-07.10.38:813][517]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.07.25-07.10.43:983][517]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.07.25-07.13.24:644][129]LogUObjectHash: Compacting FUObjectHashTables data took  14.04ms
+[2021.07.25-07.13.24:651][129]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.608
+[2021.07.25-07.13.24:664][129]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/TopDownCharacter] ([1] browsable assets)...
+[2021.07.25-07.13.24:665][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/TopDownCharacter]
+[2021.07.25-07.13.24:893][129]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/TopDownCharacter_Auto827A521BA499249A286CB40AED08E16E1.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/TopDown/TopDownCharacter_Auto8.uasset'
+[2021.07.25-07.13.24:983][129]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/GameHUD] ([1] browsable assets)...
+[2021.07.25-07.13.24:983][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/GameHUD]
+[2021.07.25-07.13.26:968][129]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameHUD_Auto88B4BF96947C3140CF6A63D81CB2E35A3.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/GameHUD_Auto8.uasset'
+[2021.07.25-07.13.27:746][129]LogFileHelpers: Auto-saving content packages took 3.091
+[2021.07.25-07.13.36:781][174]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-07.13.36:795][174]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.25-07.13.36:808][174]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
+[2021.07.25-07.13.37:203][174]LogUObjectHash: Compacting FUObjectHashTables data took  14.64ms
+[2021.07.25-07.13.37:203][174]LogPlayLevel: PlayLevel: Blueprint regeneration took 408 ms (1 blueprints)
+[2021.07.25-07.13.37:204][174]PIE: New page: PIE session: MainLevel (26/07/2021, 7:13:37 am)
+[2021.07.25-07.13.37:216][174]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.13.37:228][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011457s)
+[2021.07.25-07.13.37:230][174]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-07.13.37:231][174]LogPlayLevel: PIE: World Init took: (0.002710s)
+[2021.07.25-07.13.37:231][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.014597s)
+[2021.07.25-07.13.37:391][174]LogUObjectHash: Compacting FUObjectHashTables data took   7.83ms
+[2021.07.25-07.13.37:396][174]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2021.07.25-07.13.37:396][174]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-07.13.37:396][174]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-07.13.37:396][174]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-07.13.37:396][174]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-07.13.37:396][174]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-07.13.37:396][174]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-07.13.37:396][174]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-07.13.37:396][174]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-07.13.37:397][174]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-07.13.37:397][174]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-07.13.37:406][174]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-07.13.37:406][174]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-07.13.37:571][174]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-07.13.37:586][174]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-07.13.37:586][174]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-07.13.37:586][174]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-07.13.37:587][174]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-07.13.37:587][174]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-07.13.37:588][174]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-07.13.37:623][174]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-07.13.37:623][174]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-07.13.37:623][174]LogInit: FAudioDevice initialized.
+[2021.07.25-07.13.37:624][174]LogAudio: Display: Audio Device (ID: 57) registered with world 'MainLevel'.
+[2021.07.25-07.13.37:640][174]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-07.13.37:643][174]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-19.13.37
+[2021.07.25-07.13.37:645][174]LogWorld: Bringing up level for play took: 0.003646
+[2021.07.25-07.13.37:646][174]LogOnline: OSS: Creating online subsystem instance for: :Context_71
+[2021.07.25-07.13.37:651][174]PIE: Server logged in
+[2021.07.25-07.13.37:653][174]PIE: Play in editor total start time 0.859 seconds.
+[2021.07.25-07.13.47:696][507]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=4.36 Y=-202.72 Z=0.00 Location: X=213.63 Y=-1193.62 Z=101.80 Normal: X=0.46 Y=0.68 Z=-0.57 PenetrationDepth:73.570 Actor:FrogCharacter_C_0 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.13.50:659][591]LogCharacterMovement: FrogCharacter_C_0 is stuck and failed to move! Velocity: X=29.58 Y=43.36 Z=0.00 Location: X=120.07 Y=-1330.77 Z=216.08 Normal: X=-0.46 Y=-0.68 Z=0.57 PenetrationDepth:73.542 Actor:TopDownCharacter_C_0 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.13.55:423][756]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=5.42 Y=-9.36 Z=0.00 Location: X=219.79 Y=-1196.00 Z=101.78 Normal: X=0.49 Y=0.66 Z=-0.56 PenetrationDepth:72.217 Actor:FrogCharacter_C_0 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.13.57:207][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.13.57:207][809]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.13.57:208][809]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-07.13.57:208][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.13.57:237][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-07.13.57:259][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.13.57:396][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.13.57:396][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.13.57:399][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.13.57:490][809]LogUObjectHash: Compacting FUObjectHashTables data took  11.03ms
+[2021.07.25-07.13.57:538][810]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2021.07.25-07.14.08:605][210]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.07.25-07.14.09:104][210]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.07.25-07.14.09:608][211]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.07.25-07.14.17:361][472]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-07.14.17:377][472]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.25-07.14.17:399][472]LogPlayLevel: [PlayLevel] Compiling GameOverWidget before play...
+[2021.07.25-07.14.17:753][472]LogUObjectHash: Compacting FUObjectHashTables data took  16.99ms
+[2021.07.25-07.14.17:754][472]LogPlayLevel: PlayLevel: Blueprint regeneration took 377 ms (1 blueprints)
+[2021.07.25-07.14.17:754][472]PIE: New page: PIE session: MainLevel (26/07/2021, 7:14:17 am)
+[2021.07.25-07.14.17:768][472]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.14.17:776][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008152s)
+[2021.07.25-07.14.17:778][472]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-07.14.17:779][472]LogPlayLevel: PIE: World Init took: (0.003117s)
+[2021.07.25-07.14.17:779][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.011657s)
+[2021.07.25-07.14.17:943][472]LogUObjectHash: Compacting FUObjectHashTables data took  10.64ms
+[2021.07.25-07.14.17:944][472]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2021.07.25-07.14.17:944][472]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-07.14.17:944][472]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-07.14.17:944][472]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-07.14.17:944][472]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-07.14.17:944][472]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-07.14.17:944][472]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-07.14.17:944][472]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-07.14.17:944][472]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-07.14.17:945][472]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-07.14.17:945][472]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-07.14.17:950][472]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-07.14.17:950][472]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-07.14.18:184][472]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-07.14.18:192][472]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-07.14.18:193][472]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-07.14.18:193][472]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-07.14.18:193][472]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-07.14.18:193][472]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-07.14.18:193][472]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-07.14.18:235][472]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-07.14.18:236][472]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-07.14.18:236][472]LogInit: FAudioDevice initialized.
+[2021.07.25-07.14.18:236][472]LogAudio: Display: Audio Device (ID: 58) registered with world 'MainLevel'.
+[2021.07.25-07.14.18:250][472]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-07.14.18:252][472]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-19.14.18
+[2021.07.25-07.14.18:253][472]LogWorld: Bringing up level for play took: 0.002039
+[2021.07.25-07.14.18:254][472]LogOnline: OSS: Creating online subsystem instance for: :Context_72
+[2021.07.25-07.14.18:261][472]PIE: Server logged in
+[2021.07.25-07.14.18:263][472]PIE: Play in editor total start time 0.888 seconds.
+[2021.07.25-07.14.21:429][583]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.14.23:311][640]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.14.23:557][651]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.14.30:603][872]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=-5.17 Y=-397.04 Z=0.00 Location: X=172.16 Y=-1138.66 Z=101.49 Normal: X=0.39 Y=0.72 Z=-0.57 PenetrationDepth:73.961 Actor:FrogCharacter_C_1 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.14.31:009][888]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=1510.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.14.32:553][941]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=-3.74 Y=-399.98 Z=0.00 Location: X=172.16 Y=-1138.66 Z=101.49 Normal: X=0.39 Y=0.72 Z=-0.57 PenetrationDepth:73.961 Actor:FrogCharacter_C_1 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.14.34:550][  1]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=-2.94 Y=-399.99 Z=0.00 Location: X=172.16 Y=-1138.66 Z=101.49 Normal: X=0.39 Y=0.72 Z=-0.57 PenetrationDepth:73.961 Actor:FrogCharacter_C_1 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.14.37:034][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.14.37:034][ 33]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.14.37:035][ 33]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-07.14.37:035][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.14.37:335][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-07.14.37:352][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.14.37:589][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.14.37:590][ 33]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.14.37:592][ 33]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.14.37:684][ 33]LogUObjectHash: Compacting FUObjectHashTables data took  10.20ms
+[2021.07.25-07.14.37:752][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2021.07.25-07.14.38:001][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.07.25-07.18.49:957][261]BlueprintLog: New page: Compile GameOverWidget
+[2021.07.25-07.18.50:165][261]LogUObjectHash: Compacting FUObjectHashTables data took  13.29ms
+[2021.07.25-07.19.23:041][626]BlueprintLog: New page: Compile GameOverWidget
+[2021.07.25-07.19.23:244][626]LogUObjectHash: Compacting FUObjectHashTables data took  11.99ms
+[2021.07.25-07.21.46:352][141]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-07.21.46:362][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.25-07.21.46:362][141]PIE: New page: PIE session: MainLevel (26/07/2021, 7:21:46 am)
+[2021.07.25-07.21.46:375][141]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.21.46:388][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012799s)
+[2021.07.25-07.21.46:390][141]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-07.21.46:391][141]LogPlayLevel: PIE: World Init took: (0.002805s)
+[2021.07.25-07.21.46:391][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.015961s)
+[2021.07.25-07.21.46:547][141]LogUObjectHash: Compacting FUObjectHashTables data took  11.37ms
+[2021.07.25-07.21.46:549][141]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2021.07.25-07.21.46:549][141]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-07.21.46:550][141]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-07.21.46:550][141]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-07.21.46:550][141]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-07.21.46:550][141]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-07.21.46:550][141]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-07.21.46:550][141]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-07.21.46:550][141]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-07.21.46:553][141]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-07.21.46:553][141]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-07.21.46:557][141]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-07.21.46:557][141]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-07.21.46:712][141]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-07.21.46:723][141]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-07.21.46:723][141]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-07.21.46:723][141]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-07.21.46:725][141]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-07.21.46:725][141]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-07.21.46:726][141]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-07.21.46:763][141]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-07.21.46:763][141]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-07.21.46:763][141]LogInit: FAudioDevice initialized.
+[2021.07.25-07.21.46:763][141]LogAudio: Display: Audio Device (ID: 59) registered with world 'MainLevel'.
+[2021.07.25-07.21.46:784][141]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-07.21.46:788][141]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-19.21.46
+[2021.07.25-07.21.46:788][141]LogWorld: Bringing up level for play took: 0.002908
+[2021.07.25-07.21.46:789][141]LogOnline: OSS: Creating online subsystem instance for: :Context_73
+[2021.07.25-07.21.46:797][141]PIE: Server logged in
+[2021.07.25-07.21.46:800][141]PIE: Play in editor total start time 0.439 seconds.
+[2021.07.25-07.22.01:451][674]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=11.93 Y=119.27 Z=0.00 Location: X=102.77 Y=414.50 Z=101.79 Normal: X=0.10 Y=-0.82 Z=-0.56 PenetrationDepth:72.511 Actor:FrogCharacter_C_0 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.22.05:695][773]LogCharacterMovement: FrogCharacter_C_0 is stuck and failed to move! Velocity: X=73.76 Y=-64.06 Z=0.00 Location: X=97.00 Y=568.61 Z=216.08 Normal: X=0.17 Y=0.67 Z=0.72 PenetrationDepth:55.349 Actor:Projectile_3 Component:ProjectileMeshComponent BoneName:None (0 other events since notify)
+[2021.07.25-07.22.08:347][864]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.22.08:423][867]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=177.82 Y=207.90 Z=0.00 Location: X=168.31 Y=516.37 Z=101.45 Normal: X=0.00 Y=-0.82 Z=-0.57 PenetrationDepth:72.665 Actor:FrogCharacter_C_1 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.22.08:424][867]LogCharacterMovement: FrogCharacter_C_1 is stuck and failed to move! Velocity: X=0.09 Y=-54.50 Z=0.00 Location: X=168.05 Y=683.26 Z=216.08 Normal: X=-0.00 Y=0.82 Z=0.57 PenetrationDepth:72.665 Actor:TopDownCharacter_C_0 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.22.21:688][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.22.21:692][982]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.22.21:693][982]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-07.22.21:693][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.22.22:082][982]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-07.22.22:141][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.22.22:282][982]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.25-07.22.22:282][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.22.22:286][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.22.22:354][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.22.22:376][982]LogUObjectHash: Compacting FUObjectHashTables data took  10.92ms
+[2021.07.25-07.22.22:492][983]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2021.07.25-07.24.57:790][772]LogUObjectHash: Compacting FUObjectHashTables data took  18.21ms
+[2021.07.25-07.24.57:792][772]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.360
+[2021.07.25-07.24.57:801][772]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/GameHUD] ([1] browsable assets)...
+[2021.07.25-07.24.57:801][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/GameHUD]
+[2021.07.25-07.24.58:037][772]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameHUD_Auto9CE7EFB834CACB8E17E356B84E61E009C.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/GameHUD_Auto9.uasset'
+[2021.07.25-07.24.58:079][772]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/GameWidgetHUD] ([2] browsable assets)...
+[2021.07.25-07.24.58:079][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/GameWidgetHUD]
+[2021.07.25-07.24.58:156][772]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameWidgetHUD_Auto9660D6A184F3C42F40899C49D79BE85F8.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/GameWidgetHUD_Auto9.uasset'
+[2021.07.25-07.24.58:158][772]LogFileHelpers: Auto-saving content packages took 0.360
+[2021.07.25-07.25.22:264][866]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-07.25.22:280][866]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.25-07.25.22:305][866]LogPlayLevel: [PlayLevel] Compiling GameOverWidget before play...
+[2021.07.25-07.25.22:549][866]LogUObjectHash: Compacting FUObjectHashTables data took  10.31ms
+[2021.07.25-07.25.22:549][866]LogPlayLevel: PlayLevel: Blueprint regeneration took 268 ms (1 blueprints)
+[2021.07.25-07.25.22:549][866]PIE: New page: PIE session: MainLevel (26/07/2021, 7:25:22 am)
+[2021.07.25-07.25.22:561][866]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.25.22:570][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008602s)
+[2021.07.25-07.25.22:572][866]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-07.25.22:572][866]LogPlayLevel: PIE: World Init took: (0.002201s)
+[2021.07.25-07.25.22:572][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.011117s)
+[2021.07.25-07.25.22:732][866]LogUObjectHash: Compacting FUObjectHashTables data took   7.85ms
+[2021.07.25-07.25.22:732][866]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2021.07.25-07.25.22:732][866]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-07.25.22:732][866]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-07.25.22:732][866]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-07.25.22:732][866]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-07.25.22:732][866]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-07.25.22:732][866]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-07.25.22:732][866]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-07.25.22:732][866]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-07.25.22:733][866]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-07.25.22:733][866]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-07.25.22:740][866]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-07.25.22:740][866]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-07.25.22:979][866]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-07.25.22:989][866]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-07.25.22:990][866]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-07.25.22:990][866]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-07.25.22:991][866]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-07.25.22:991][866]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-07.25.22:991][866]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-07.25.23:014][866]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-07.25.23:014][866]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-07.25.23:014][866]LogInit: FAudioDevice initialized.
+[2021.07.25-07.25.23:014][866]LogAudio: Display: Audio Device (ID: 60) registered with world 'MainLevel'.
+[2021.07.25-07.25.23:030][866]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-07.25.23:032][866]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-19.25.23
+[2021.07.25-07.25.23:033][866]LogWorld: Bringing up level for play took: 0.001945
+[2021.07.25-07.25.23:034][866]LogOnline: OSS: Creating online subsystem instance for: :Context_74
+[2021.07.25-07.25.23:040][866]PIE: Server logged in
+[2021.07.25-07.25.23:042][866]PIE: Play in editor total start time 0.763 seconds.
+[2021.07.25-07.25.27:217][ 35]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.25.27:488][ 45]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.25.28:131][ 72]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.25.33:629][273]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=-230.97 Y=-257.90 Z=0.00 Location: X=102.23 Y=-1075.66 Z=101.80 Normal: X=0.13 Y=0.81 Z=-0.57 PenetrationDepth:74.265 Actor:FrogCharacter_C_0 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.25.41:280][527]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=-35.62 Y=285.61 Z=0.00 Location: X=201.97 Y=-623.19 Z=101.79 Normal: X=0.33 Y=-0.76 Z=-0.56 PenetrationDepth:71.926 Actor:FrogCharacter_C_4 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.25.58:912][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.25.58:917][654]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.25.58:917][654]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-07.25.58:918][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.25.58:942][654]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-07.25.59:014][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.25.59:152][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.25.59:152][654]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.25.59:153][654]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.25.59:227][654]LogUObjectHash: Compacting FUObjectHashTables data took   9.52ms
+[2021.07.25-07.25.59:336][655]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2021.07.25-07.27.32:654][516]BlueprintLog: New page: Compile GameOverWidget
+[2021.07.25-07.27.32:856][516]LogUObjectHash: Compacting FUObjectHashTables data took  10.68ms
+[2021.07.25-07.27.34:522][566]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.25-07.27.34:535][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.25-07.27.34:535][566]PIE: New page: PIE session: MainLevel (26/07/2021, 7:27:34 am)
+[2021.07.25-07.27.34:548][566]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.27.34:561][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012969s)
+[2021.07.25-07.27.34:563][566]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-07.27.34:564][566]LogPlayLevel: PIE: World Init took: (0.002258s)
+[2021.07.25-07.27.34:564][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.015507s)
+[2021.07.25-07.27.34:750][566]LogUObjectHash: Compacting FUObjectHashTables data took  11.87ms
+[2021.07.25-07.27.34:751][566]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2021.07.25-07.27.34:751][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.25-07.27.34:752][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.25-07.27.34:752][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.25-07.27.34:752][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.25-07.27.34:752][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.25-07.27.34:752][566]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.25-07.27.34:752][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.25-07.27.34:752][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.25-07.27.34:753][566]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.25-07.27.34:754][566]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.25-07.27.34:757][566]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.25-07.27.34:757][566]LogAudioMixer: Display: 1: FrontRight
+[2021.07.25-07.27.35:051][566]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.07.25-07.27.35:055][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.25-07.27.35:056][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.25-07.27.35:056][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.25-07.27.35:056][566]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.25-07.27.35:056][566]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.25-07.27.35:056][566]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.25-07.27.35:087][566]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.25-07.27.35:087][566]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.25-07.27.35:087][566]LogInit: FAudioDevice initialized.
+[2021.07.25-07.27.35:088][566]LogAudio: Display: Audio Device (ID: 61) registered with world 'MainLevel'.
+[2021.07.25-07.27.35:107][566]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-07.27.35:109][566]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-19.27.35
+[2021.07.25-07.27.35:110][566]LogWorld: Bringing up level for play took: 0.001594
+[2021.07.25-07.27.35:110][566]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2021.07.25-07.27.35:119][566]PIE: Server logged in
+[2021.07.25-07.27.35:122][566]PIE: Play in editor total start time 0.589 seconds.
+[2021.07.25-07.27.47:446][922]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=43.80 Y=-397.60 Z=0.00 Location: X=100.35 Y=-1341.20 Z=101.72 Normal: X=0.39 Y=0.73 Z=-0.57 PenetrationDepth:74.325 Actor:FrogCharacter_C_0 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.27.47:474][923]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.27.49:477][997]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=32.72 Y=-398.66 Z=0.00 Location: X=100.35 Y=-1341.20 Z=101.72 Normal: X=0.39 Y=0.73 Z=-0.57 PenetrationDepth:74.325 Actor:FrogCharacter_C_0 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2021.07.25-07.27.58:842][154]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.28.05:108][186]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-20.000 Y=-1640.000 Z=100.000] for [FrogCharacter_C]
+[2021.07.25-07.28.08:799][199]Cmd: RestartLevel
+[2021.07.25-07.28.08:841][199]LogNet: Browse: /Game/MainLevel?restart
+[2021.07.25-07.28.08:844][199]LogLoad: LoadMap: /Game/MainLevel
+[2021.07.25-07.28.08:845][199]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.28.08:880][199]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-07.28.08:880][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.28.09:101][199]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.25-07.28.11:144][199]LogUObjectHash: Compacting FUObjectHashTables data took  12.59ms
+[2021.07.25-07.28.11:556][199]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.28.11:566][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010319s)
+[2021.07.25-07.28.11:568][199]LogAIModule: Creating AISystem for world MainLevel
+[2021.07.25-07.28.11:569][199]LogPlayLevel: PIE: World Init took: (0.002930s)
+[2021.07.25-07.28.11:569][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.013630s)
+[2021.07.25-07.28.11:569][199]LogAudio: Display: Audio Device (ID: 61) registered with world 'MainLevel'.
+[2021.07.25-07.28.11:569][199]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.25-07.28.11:576][199]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.07.25-19.28.11
+[2021.07.25-07.28.11:577][199]LogWorld: Bringing up level for play took: 0.003123
+[2021.07.25-07.28.11:585][199]LogLoad: Took 2.740461 seconds to LoadMap(/Game/UEDPIE_0_MainLevel)
+[2021.07.25-07.28.20:069][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.28.20:069][468]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.07.25-07.28.20:070][468]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-07.28.20:070][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.28.20:100][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.25-07.28.20:151][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.28.20:271][468]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.25-07.28.20:271][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.28.20:273][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.25-07.28.20:351][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.25-07.28.20:363][468]LogUObjectHash: Compacting FUObjectHashTables data took   8.68ms
+[2021.07.25-07.28.20:490][469]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2021.07.25-07.32.45:871][356]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2021.07.25-07.32.45:917][356]LogContentBrowser: Creating deferred item: NewWorld
+[2021.07.25-07.32.54:576][636]LogContentBrowser: Attempting asset rename: NewWorld -> StartLevel
+[2021.07.25-07.32.54:603][636]LogContentBrowser: End creating deferred item NewWorld
+[2021.07.25-07.33.07:924][946]LogUObjectHash: Compacting FUObjectHashTables data took   9.45ms
+[2021.07.25-07.33.07:962][946]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/MainLevel82A2AE6846193FC532194EA03F1727CC.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/MainLevel.umap'
+[2021.07.25-07.33.08:756][946]LogFileHelpers: Saving map 'MainLevel' took 0.975
+[2021.07.25-07.33.08:932][946]LogUObjectHash: Compacting FUObjectHashTables data took  11.29ms
+[2021.07.25-07.33.08:947][946]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/StartLevelEB4F3E6C4D9508D87793E892B74A05A0.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/StartLevel.umap'
+[2021.07.25-07.33.08:949][946]LogFileHelpers: Saving map 'StartLevel' took 0.192
+[2021.07.25-07.33.09:070][946]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.25-07.33.09:070][946]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.07.25-07.33.09:070][946]LogContentValidation: Display: Validating World /Game/StartLevel.StartLevel
+[2021.07.25-07.33.17:585][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   8.76ms
+[2021.07.25-07.33.17:729][ 47]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/TopDownCharacter1EA10D2742EBB18F31D6A491FE6F6DF9.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/TopDown/TopDownCharacter.uasset'
+[2021.07.25-07.33.17:743][ 47]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/ThirdPersonGameModeD93FE5174929A13196DAE5974A35B5FC.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2021.07.25-07.33.17:767][ 47]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameHUDC0A61CA2457909FF75213BB6251BB322.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/ThirdPersonBP/Blueprints/GameHUD.uasset'
+[2021.07.25-07.33.17:791][ 47]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameWidgetHUDDA3726EA45507443462CBEB0F25A90FB.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/ThirdPersonBP/Blueprints/GameWidgetHUD.uasset'
+[2021.07.25-07.33.17:823][ 47]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/bubble-298B234634D741A8AF7F2FFB8FE953078.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/Projectile/bubble-2.uasset'
+[2021.07.25-07.33.17:853][ 47]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/GameOverWidget8B74183A4B1F2DBE2BEC8094A29E0809.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/ThirdPersonBP/Blueprints/GameOverWidget.uasset'
+[2021.07.25-07.33.17:963][ 47]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.25-07.33.17:964][ 47]LogContentValidation: Display: Validating Blueprint /Game/TopDown/TopDownCharacter.TopDownCharacter
+[2021.07.25-07.33.17:964][ 47]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2021.07.25-07.33.17:965][ 47]LogContentValidation: Display: Validating Texture2D /Game/Projectile/bubble-2.bubble-2
+[2021.07.25-07.33.17:965][ 47]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/GameHUD.GameHUD
+[2021.07.25-07.33.17:965][ 47]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonBP/Blueprints/GameOverWidget.GameOverWidget
+[2021.07.25-07.33.17:966][ 47]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonBP/Blueprints/GameWidgetHUD.GameWidgetHUD
+[2021.07.25-07.34.21:064][292]LogUObjectHash: Compacting FUObjectHashTables data took  16.13ms
+[2021.07.25-07.34.21:123][292]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StartLevel.StartLevel
+[2021.07.25-07.34.21:126][292]Cmd: MAP LOAD FILE="../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/StartLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.07.25-07.34.21:129][292]LightingResults: New page: Lighting Build
+[2021.07.25-07.34.21:134][292]LoadErrors: New page: Loading map: StartLevel.umap
+[2021.07.25-07.34.21:200][292]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-07.34.21:200][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.34.21:757][292]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-07.34.21:757][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.25-07.34.21:758][292]MapCheck: New page: Map Check
+[2021.07.25-07.34.21:758][292]LightingResults: New page: Lighting Build
+[2021.07.25-07.34.21:907][292]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.25-07.34.22:040][292]LogUObjectHash: Compacting FUObjectHashTables data took  10.46ms
+[2021.07.25-07.34.22:093][292]LogAudio: Display: Audio Device (ID: 1) registered with world 'StartLevel'.
+[2021.07.25-07.34.22:720][292]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.07.25-07.34.22:720][292]LogAIModule: Creating AISystem for world StartLevel
+[2021.07.25-07.34.22:926][292]LogUObjectHash: Compacting FUObjectHashTables data took  11.88ms
+[2021.07.25-07.34.22:945][292]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.07.25-07.34.22:946][292]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.306ms to complete.
+[2021.07.25-07.34.22:946][292]LogFileHelpers: Loading map 'StartLevel' took 1.821
+[2021.07.25-07.35.03:250][728]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.07.25-07.35.03:291][728]LogContentBrowser: Creating deferred item: NewFolder
+[2021.07.25-07.35.10:347][ 47]LogContentBrowser: Attempting asset rename: NewFolder -> StartMenu
+[2021.07.25-07.35.10:360][ 47]LogContentBrowser: End creating deferred item NewFolder
+[2021.07.25-07.35.17:670][237]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.07.25-07.35.17:707][237]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.07.25-07.35.19:329][298]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> NewWidgetBlueprint
+[2021.07.25-07.35.19:345][298]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.07.25-07.35.35:688][  6]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> HUD
+[2021.07.25-07.35.35:777][  6]LogMetaData: Removing '/Game/StartMenu/HUD.SKEL_HUD_C' ref from Metadata '/Game/StartMenu/NewWidgetBlueprint.PackageMetaData'
+[2021.07.25-07.35.35:777][  6]LogMetaData: Removing '/Game/StartMenu/HUD.HUD_C' ref from Metadata '/Game/StartMenu/NewWidgetBlueprint.PackageMetaData'
+[2021.07.25-07.35.35:777][  6]LogMetaData: Removing '/Game/StartMenu/HUD.HUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/StartMenu/NewWidgetBlueprint.PackageMetaData'
+[2021.07.25-07.35.35:777][  6]LogMetaData: Removing '/Game/StartMenu/HUD.HUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/StartMenu/NewWidgetBlueprint.PackageMetaData'
+[2021.07.25-07.35.35:778][  6]LogMetaData: Removing '/Game/StartMenu/HUD.HUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/StartMenu/NewWidgetBlueprint.PackageMetaData'
+[2021.07.25-07.35.35:833][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StartMenu/HUD" FILE="../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/StartMenu/HUD.uasset" SILENT=true
+[2021.07.25-07.35.35:845][  6]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/HUD7A20DA4A41295ADABE49A28506AD9CAB.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/StartMenu/HUD.uasset'
+[2021.07.25-07.35.36:108][  6]LogUObjectHash: Compacting FUObjectHashTables data took   8.28ms
+[2021.07.25-07.35.36:272][  6]LogUObjectHash: Compacting FUObjectHashTables data took   6.88ms
+[2021.07.25-07.35.36:388][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.07.25-07.35.36:466][  6]AssetCheck: New page: Asset Save: HUD
+[2021.07.25-07.35.36:467][  6]LogContentValidation: Display: Validating WidgetBlueprint /Game/StartMenu/HUD.HUD
+[2021.07.25-07.40.09:523][118]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.07.25-07.40.09:567][118]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.07.25-07.40.16:379][431]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> MainMenu
+[2021.07.25-07.40.16:394][431]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.07.25-07.40.36:147][514]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.07.25-07.44.12:178][841]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.07.25-07.44.12:221][841]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.07.25-07.44.16:378][ 31]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> Settings
+[2021.07.25-07.44.16:394][ 31]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.07.25-07.44.46:166][151]LogUObjectHash: Compacting FUObjectHashTables data took  15.85ms
+[2021.07.25-07.44.46:201][151]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/StartLevel_Auto07D13C62B4BC32341B70CE5910877B705.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/StartLevel_Auto0.umap'
+[2021.07.25-07.44.46:227][151]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StartLevel' took 0.283
+[2021.07.25-07.44.46:227][151]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.283
+[2021.07.25-07.48.18:338][ 81]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.07.25-07.48.39:246][522]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/StartLevel.StartLevel:PersistentLevel.StartLevel
+[2021.07.25-07.48.58:494][362]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.07.25-07.54.49:813][557]LogUObjectHash: Compacting FUObjectHashTables data took  12.33ms
+[2021.07.25-07.54.49:839][557]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/StartLevel_Auto10566E8B74883786EA6E34BACE7228FF3.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/Autosaves/Game/StartLevel_Auto1.umap'
+[2021.07.25-07.54.49:868][557]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StartLevel' took 0.322
+[2021.07.25-07.54.49:868][557]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.322
+[2021.07.25-07.57.54:869][463]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/StartMenu/MainMenu.MainMenu
+[2021.07.25-08.03.21:024][206]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.07.25-08.22.20:193][269]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.25-08.24.04:080][663]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.25-08.38.50:551][734]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.07.25-08.41.23:329][855]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.07.25-08.52.44:250][ 70]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/StartMenu/Settings.Settings
+[2021.07.25-08.54.13:352][708]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.25-08.55.56:691][906]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.25-08.57.36:939][673]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.25-08.58.19:026][422]LogEditorTransaction: Undo Edit Right
+[2021.07.25-08.58.52:518][675]LogEditorTransaction: Undo Drag and Drop Widget
+[2021.07.25-09.04.23:193][200]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.25-09.09.23:953][850]LogHttp: Warning: 0000024612BE0800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0B55F30D-41A2-61EC-51A3-00970831A191%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=bd2703b7420f9a21a0037ebe0016eeee%7C57059e4be7df4546bf736a6acbd94b81%7C7015053f-7656-4699-a3d8-aefdb4ca5b7f&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.07.25-09.09.23:953][850]LogHttp: Warning: 0000024612BE0800: request failed, libcurl error: 0 (No error)
+[2021.07.25-09.09.23:953][850]LogHttp: Warning: 0000024612BE0800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x243c98c4100 [can pipeline])
+[2021.07.25-09.09.23:955][850]LogHttp: Warning: 0000024612BE0800: libcurl info message cache 1 (Re-using existing connection! (#10) with host datarouter.ol.epicgames.com)
+[2021.07.25-09.09.23:955][850]LogHttp: Warning: 0000024612BE0800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.193.141.77) port 443 (#10))
+[2021.07.25-09.09.23:955][850]LogHttp: Warning: 0000024612BE0800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.07.25-09.09.23:955][850]LogHttp: Warning: 0000024612BE0800: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2021.07.25-09.09.23:955][850]LogHttp: Warning: 0000024612BE0800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.07.25-09.09.23:955][850]LogHttp: Warning: 0000024612BE0800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.07.25-09.09.23:956][850]LogHttp: Warning: 0000024612BE0800: libcurl info message cache 7 (Closing connection 10)
+[2021.07.25-09.09.23:956][850]LogHttp: Warning: 0000024612BE0800: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.07.25-09.09.23:956][850]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0B55F30D-41A2-61EC-51A3-00970831A191%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=bd2703b7420f9a21a0037ebe0016eeee%7C57059e4be7df4546bf736a6acbd94b81%7C7015053f-7656-4699-a3d8-aefdb4ca5b7f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.07.25-09.27.47:683][713]LogEditorTransaction: Undo Move Nodes
+[2021.07.25-09.27.48:085][717]LogEditorTransaction: Undo Paste clipboard contents
+[2021.07.25-09.27.48:516][726]LogEditorTransaction: Undo Create Pin Link
+[2021.07.25-09.27.48:856][733]LogEditorTransaction: Undo Move Nodes
+[2021.07.25-09.27.49:275][744]LogEditorTransaction: Undo Paste clipboard contents
+[2021.07.25-09.27.49:862][761]LogEditorTransaction: Undo Move Node
+[2021.07.25-09.27.50:528][784]LogEditorTransaction: Undo Create Pin Link
+[2021.07.25-09.27.51:904][842]LogEditorTransaction: Redo Create Pin Link
+[2021.07.25-09.27.52:267][851]LogEditorTransaction: Redo Move Node
+[2021.07.25-09.27.53:460][898]LogEditorTransaction: Redo Paste clipboard contents
+[2021.07.25-09.27.54:079][919]LogEditorTransaction: Undo Paste clipboard contents
+[2021.07.25-09.30.38:847][546]LogEditorTransaction: Undo Move Node
+[2021.07.25-09.30.39:821][573]LogEditorTransaction: Undo Add Node
+[2021.07.25-09.32.40:971][936]BlueprintLog: New page: Compile Settings
+[2021.07.25-09.32.41:029][936]LogBlueprint: Error: [AssetLog] /Game/StartMenu/Settings.Settings (no disk path found): [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' level ': Member:Get_level_Text_0 Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2021.07.25-09.32.45:168][936]LogUObjectHash: Compacting FUObjectHashTables data took 133.07ms
+[2021.07.25-09.32.59:889][223]LogBlueprint: Warning: Unknown type of hyperlinked object (level), cannot focus it
+[2021.07.25-09.33.01:346][284]LogBlueprint: Warning: Unknown type of hyperlinked object (level), cannot focus it
+[2021.07.25-09.33.51:331][727]LogEditorTransaction: Undo Delete current selection
+[2021.07.25-09.33.55:936][903]BlueprintLog: New page: Compile Settings
+[2021.07.25-09.33.55:960][903]LogBlueprint: Error: [AssetLog] /Game/StartMenu/Settings.Settings (no disk path found): [Compiler] This blueprint (self) is not a TextBlock, therefore ' Target ' must have a connection.
+[2021.07.25-09.33.55:966][903]LogBlueprint: Error: [AssetLog] /Game/StartMenu/Settings.Settings (no disk path found): [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' level ': Member:Get_level_Text_0 Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2021.07.25-09.33.56:116][903]LogUObjectHash: Compacting FUObjectHashTables data took  12.16ms
+[2021.07.25-09.34.14:689][301]BlueprintLog: New page: Compile Settings
+[2021.07.25-09.34.14:706][301]LogBlueprint: Error: [AssetLog] /Game/StartMenu/Settings.Settings (no disk path found): [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' level ': Member:Get_level_Text_0 Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2021.07.25-09.34.14:845][301]LogUObjectHash: Compacting FUObjectHashTables data took  11.20ms
+[2021.07.25-09.34.33:367][ 82]LogBlueprint: Warning: Unknown type of hyperlinked object (level), cannot focus it
+[2021.07.25-09.34.34:052][113]LogBlueprint: Warning: Unknown type of hyperlinked object (level), cannot focus it
+[2021.07.25-09.34.39:736][346]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/SettingsD31C18594D0BB22D76B732B79D0A5995.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/StartMenu/Settings.uasset'
+[2021.07.25-09.34.39:856][346]AssetCheck: New page: Asset Save: Settings
+[2021.07.25-09.34.39:856][346]LogContentValidation: Display: Validating WidgetBlueprint /Game/StartMenu/Settings.Settings
+[2021.07.25-09.34.43:243][463]LogUObjectHash: Compacting FUObjectHashTables data took  13.96ms
+[2021.07.25-09.34.43:267][463]LogSavePackage: Moving '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Saved/StartLevelDE5EA4C24F620D43255E94A97CECD1E3.tmp' to '../../../../../../Users/New User/Desktop/Uni/3rd Year/COMP313/COMP313Assignment1/JourneyOfFrogFighter/Content/StartLevel.umap'
+[2021.07.25-09.34.43:606][463]LogFileHelpers: Saving map 'StartLevel' took 0.555
+[2021.07.25-09.34.43:677][463]AssetCheck: New page: Asset Save: StartLevel
+[2021.07.25-09.34.43:677][463]LogContentValidation: Display: Validating World /Game/StartLevel.StartLevel
+[2021.07.25-09.34.45:235][493]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.07.25-09.34.45:241][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
